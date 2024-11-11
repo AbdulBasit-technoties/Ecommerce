@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import { Feature1,Feature2,Feature3,Feature4 } from "../Helpers/images";
+import { Feature1,Feature2,Feature3,Feature4 } from '../Helpers/images'
 
 function FeatureCollection() {
   return (
