@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Webtitle(props) {
+export function Webtitle(props) {
   return (
     <div className='web-title'>
       <h2 className='font-semibold text-3xl leading-normal mb-1 text-blue font-Dm'>{props.title}</h2>
@@ -8,4 +8,4 @@ function Webtitle(props) {
     </div>
   );
 }
-export default Webtitle;
+

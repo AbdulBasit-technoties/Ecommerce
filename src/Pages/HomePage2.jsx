@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import FeaturedCollection from '../Components/FeatureCollection';
 import Header from '../Components/Header'
 import { IoIosStar } from "react-icons/io";
-import Webtitle from "../components/Webtitle";
+
 import { newProduct } from '../Helpers/images';
 import { bestSaller } from '../Helpers/images';
 import { Link } from 'react-router-dom';
@@ -10,6 +10,11 @@ import { FiHeart, FiEye, FiBookmark } from "react-icons/fi";
 import SaleOutLate from '../Components/SaleOutLate';
 import CustomerReview from '../Components/CustomerReview';
 import Webbtn from '../Components/Webbtn';
+
+//Webtitle
+import {Webtitle} from '../Components/Webtitle'
+
+
 import { FaArrowRight } from "react-icons/fa";
 import Slider from 'react-slick'; // Import Slider
 import Footer from '../Components/Footer';
