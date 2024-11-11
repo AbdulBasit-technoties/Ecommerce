@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Header from '../Components/Header'
 import { Link } from 'react-router-dom'
-import { blogData,blogdetail,blogdetail1,social } from '../Helpers/images'
+import { blogData,imageAssets,blogdetail1,social } from '../Helpers/images'
 import { FiCalendar, FiClock } from 'react-icons/fi'
 import Footer from '../Components/Footer'
 function BlogDetails() {
@@ -38,7 +38,7 @@ function BlogDetails() {
                     <div className="lg:col-span-8 md:col-span-6">
                         <div className="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
 
-                            <img src={blogdetail} alt=""/>
+                            <img src={imageAssets.blog.blogdetail} alt=""/>
 
                             <div className="p-6">
                                 <p className="text-slate-400">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin. It contains a series of real Latin words. This ancient dummy text is also incomprehensible, but it imitates the rhythm of most European languages in Latin script.</p>
@@ -84,7 +84,7 @@ function BlogDetails() {
                         <div className="sticky top-20">
                             <h5 className="text-lg font-medium bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center">Author</h5>
                             <div className="text-center mt-8">
-                                <img src={blogdetail1} className="h-20 w-20 mx-auto rounded-full shadow mb-4" alt=""/>
+                                <img src={imageAssets.blog.blogdetail1} className="h-20 w-20 mx-auto rounded-full shadow mb-4" alt=""/>
 
                                 <Link to="" className="text-lg font-medium hover:text-orange transition-all duration-500 ease-in-out h5">Cristina Romsey</Link>
                                 <p className="text-slate-400">Content Writer</p>

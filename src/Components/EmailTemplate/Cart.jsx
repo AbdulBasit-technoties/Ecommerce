@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
-import { confirmation } from '../../Helpers/images'
-import { product } from '../../Helpers/images' 
+import { imageAssets } from '../../Helpers/images'
 function Cart() {
   return (
     <Fragment>
@@ -10,7 +9,7 @@ function Cart() {
 
                 <thead style={{padding: '16px', display: 'block'}}>
                     <tr style={{display: 'block', border: 'none', textAlign: 'center', fontSize: '24px',letterSpacing: '1px'}}>
-                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={confirmation} alt=""/></Link></th>
+                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={imageAssets.user.confirmation} alt=""/></Link></th>
                     </tr>
                 </thead>
     
@@ -43,7 +42,7 @@ function Cart() {
                                     <tr>
                                         <td style={{padding: '16px'}}>
                                             <span style={{display: 'flex', alignItems: 'center',}}>
-                                                <img src={product} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
+                                                <img src={imageAssets.products.product} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
                                                 <span style={{marginLeft: '8px'}}>
                                                     <span style={{fontWeight:'500'}}>T-shirt (M)</span>
                                                 </span>

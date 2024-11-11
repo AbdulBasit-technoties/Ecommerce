@@ -3,7 +3,7 @@ import Header from '../Header'
 import { FiMapPin, FiPhone } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 import Footer from '../Footer'
-import { ourstore } from '../../Helpers/images'
+import { imageAssets } from '../../Helpers/images'
 function OurStore() {
     let [modal, setModal] = useState(false)
   return (
@@ -31,7 +31,7 @@ function OurStore() {
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
                     <div>
-                        <img src={ourstore} className="rounded-md shadow-md dark:shadow-gray-800" alt=""/>
+                        <img src={imageAssets.store.ourstore} className="rounded-md shadow-md dark:shadow-gray-800" alt=""/>
 
                         <h5 className="font-semibold text-xl leading-normal my-4">Cartzio, U.S.A.</h5>
 

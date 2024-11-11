@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
-import { register,webLogo } from '../../Helpers/images'
+import { register,imageAssets } from '../../Helpers/images'
 import { FiArrowLeft } from 'react-icons/fi'
 
 function Register() {
@@ -12,13 +12,13 @@ function Register() {
                     <div className="relative overflow-hidden rounded-md shadow dark:shadow-gray-700 bg-white dark:bg-slate-900">
                         <div className="grid md:grid-cols-2 grid-cols-1 items-center">
                             <div className="relative md:shrink-0">
-                                <img className="h-full w-full object-cover md:h-[44rem]" src={register} alt=""/>
+                                <img className="h-full w-full object-cover md:h-[44rem]" src={imageAssets.auth.register} alt=""/>
                             </div>
 
                             <div className="p-8 lg:px-20">
                                 <div className="text-center">
                                     <Link to="/">
-                                        <img src={webLogo} className="mx-auto block dark:hidden" alt=""/>
+                                        <img src={imageAssets.logo.src} className="mx-auto block dark:hidden" alt=""/>
                                     </Link>
                                 </div>
 

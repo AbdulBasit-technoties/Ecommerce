@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
-import { career,jobData,mobile,app,app1 } from '../Helpers/images'
+import { jobData,imageAssets } from '../Helpers/images'
 import { FiSmartphone } from 'react-icons/fi'
 function Career() {
   return (
@@ -33,14 +33,14 @@ function Career() {
                         <div className="grid grid-cols-12 gap-6 items-center">
                             <div className="col-span-6">
                                 <div className="grid grid-cols-1 gap-6">
-                                    <img src={career} className="shadow rounded-md" alt=""/>
-                                    <img src={career} className="shadow rounded-md" alt=""/>
+                                    <img src={imageAssets.payment.career} className="shadow rounded-md" alt=""/>
+                                    <img src={imageAssets.payment.career} className="shadow rounded-md" alt=""/>
                                 </div>
                             </div>
 
                             <div className="col-span-6">
                                 <div className="grid grid-cols-1 gap-6">
-                                    <img src={career} className="shadow rounded-md" alt=""/>
+                                    <img src={imageAssets.payment.career} className="shadow rounded-md" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ function Career() {
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative md:mt-24 mt-16">
             <div className="grid md:grid-cols-12 grid-cols-1 items-center">
                 <div className="lg:col-span-5 md:col-span-6">
-                    <img src={mobile} className="mx-auto d-block" alt=""/>
+                    <img src={imageAssets.contact.mobile} className="mx-auto d-block" alt=""/>
                 </div>
 
                 <div className="lg:col-span-7 md:col-span-6">
@@ -120,9 +120,9 @@ function Career() {
                     <h4 className="font-semibold text-3xl leading-normal my-4">Available for your <br/> Smartphones</h4>
                     <p className="text-slate-400 max-w-xl mb-0">Upgrade your style with our curated sets. Choose confidence, embrace your unique look.</p>
                     <div className="my-5">
-                        <Link to=""><img src={app} className="m-1 inline-block" alt=""/></Link>
+                        <Link to=""><img src={imageAssets.contact.app} className="m-1 inline-block" alt=""/></Link>
 
-                        <Link to=""><img src={app1} className="m-1 inline-block" alt=""/></Link>
+                        <Link to=""><img src={imageAssets.contact.app1} className="m-1 inline-block" alt=""/></Link>
                     </div>
 
                     <div className="inline-block">

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Header from '../Components/Header'
 import { Link } from 'react-router-dom'
-import { about1,about2,teamData,promiseData } from '../Helpers/images'
+import { imageAssets,teamData,promiseData } from '../Helpers/images'
 import { FiDribbble, FiFacebook, FiInstagram, FiLinkedin, FiMapPin, FiPhone, FiTwitter } from 'react-icons/fi'
 import Footer from '../Components/Footer'
 function AboutUsPage() {
@@ -32,7 +32,7 @@ function AboutUsPage() {
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div className="lg:col-span-5 md:col-span-6">
-                        <img src={about1} className="rounded-t-full shadow-md dark:shadow-gray-800" alt=""/>
+                        <img src={imageAssets.about.about1} className="rounded-t-full shadow-md dark:shadow-gray-800" alt=""/>
                     </div>
 
                     <div className="lg:col-span-7 md:col-span-6">
@@ -64,7 +64,7 @@ function AboutUsPage() {
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative md:mt-24 mt-16">
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div className="lg:col-span-5 md:col-span-6 md:order-2 order-1">
-                        <img src={about2} className="rounded-b-full shadow-md dark:shadow-gray-800" alt=""/>
+                        <img src={imageAssets.about.about2} className="rounded-b-full shadow-md dark:shadow-gray-800" alt=""/>
                     </div>
 
                     <div className="lg:col-span-7 md:col-span-6 md:order-1 order-2">

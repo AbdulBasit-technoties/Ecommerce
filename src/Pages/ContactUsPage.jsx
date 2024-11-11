@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import Header from '../Components/Header'
-import { contact } from '../Helpers/images'
+import { imageAssets } from '../Helpers/images'
 import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 import Footer from '../Components/Footer'
@@ -21,7 +21,7 @@ function ContactUsPage() {
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4">
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div className="lg:col-span-7 md:col-span-6">
-                        <img src={contact} alt=""/>
+                        <img src={imageAssets.contact.contact} alt=""/>
                     </div>
 
                     <div className="lg:col-span-5 md:col-span-6">

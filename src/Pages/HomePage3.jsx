@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Header from '../Components/Header'
 import { Link } from 'react-router-dom'
-import { banner1,banner2,banner3 } from '../Helpers/images'
+import { imageAssets } from '../Helpers/images'
 import {Webtitle} from '../Components/Webtitle'
 import { newProduct } from '../Helpers/images'
 import { MdOutlineShoppingCart, MdStar } from 'react-icons/md'
@@ -22,21 +22,21 @@ function HomePage3() {
                 <div className="grid md:grid-cols-3">
                     <div className="relative overflow-hidden group">
                         <Link to="" className="text-center">
-                            <img src={banner1} className="group-hover:scale-110 duration-500" alt=""/>
+                            <img src={imageAssets.banners.banner1} className="group-hover:scale-110 duration-500" alt=""/>
                             <span className="bg-white dark:bg-slate-900 group-hover:text-orange-500 py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">Ladies Wear</span>
                         </Link>
                     </div>
                     
                     <div className="relative overflow-hidden group">
                         <Link to="" className="text-center">
-                            <img src={banner2} className="group-hover:scale-110 duration-500" alt=""/>
+                            <img src={imageAssets.banners.banner2} className="group-hover:scale-110 duration-500" alt=""/>
                             <span className="bg-white dark:bg-slate-900 group-hover:text-orange-500 py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">Kids Wear</span>
                         </Link>
                     </div>
                     
                     <div className="relative overflow-hidden group">
                         <Link to="" className="text-center">
-                            <img src={banner3} className="group-hover:scale-110 duration-500" alt=""/>
+                            <img src={imageAssets.banners.banner3} className="group-hover:scale-110 duration-500" alt=""/>
                             <span className="bg-white dark:bg-slate-900 group-hover:text-orange-500 py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">Gents Wear</span>
                         </Link>
                     </div>

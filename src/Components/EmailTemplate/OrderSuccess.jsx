@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
-import { confirmation } from '../../Helpers/images'
+import { imageAssets } from '../../Helpers/images'
 import { Link } from 'react-router-dom'
-import { order,user } from '../../Helpers/images' 
 function OrderSuccess() {
   return (
     <Fragment>
@@ -10,7 +9,7 @@ function OrderSuccess() {
 
                 <thead style={{padding: '16px', display: 'block'}}>
                     <tr style={{display: 'block', border: 'none', textAlign: 'center', fontSize: '24px',letterSpacing: '1px'}}>
-                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={confirmation} alt=""/></Link></th>
+                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={imageAssets.user.confirmation} alt=""/></Link></th>
                     </tr>
                 </thead>
     
@@ -25,7 +24,7 @@ function OrderSuccess() {
                     </tr>
                     <tr>
                         <td style={{padding: '24px 16px', background: '#f8fafc', display:'flex', textAlign: 'center', flexDirection:'column', alignItems:'center', justifyContent:'center'}}>
-                            <img src={order} width="200px" alt=""/>
+                            <img src={imageAssets.user.order} width="200px" alt=""/>
                             <h1 style={{fontWeight: '600', margin: '16px 0 0'}}>Thank you!</h1>
                         </td>
                     </tr>
@@ -52,7 +51,7 @@ function OrderSuccess() {
                                     <tr>
                                         <td style={{padding: '16px'}}>
                                             <span style={{display: 'flex', alignItems: 'center',}}>
-                                                <img src={user} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
+                                                <img src={imageAssets.user.user} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
                                                 <span style={{marginLeft: '8px'}}>
                                                     <span style={{fontWeight:'500'}}>T-shirt (M)</span>
                                                 </span>
@@ -66,7 +65,7 @@ function OrderSuccess() {
                                     <tr>
                                         <td style={{padding: '16px'}}>
                                             <span style={{display: 'flex', alignItems: 'center',}}>
-                                                <img src={user} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
+                                                <img src={imageAssets.user.user} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
                                                 <span style={{marginLeft: '8px'}}>
                                                     <span style={{fontWeight: '500'}}>Sneaker Shoes</span>
                                                 </span>
@@ -80,7 +79,7 @@ function OrderSuccess() {
                                     <tr>
                                         <td style={{padding: '16px'}}>
                                             <span style={{display: 'flex', alignItems: 'center',}}>
-                                                <img src={user} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
+                                                <img src={imageAssets.user.user} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
                                                 <span style={{marginLeft: '8px'}}>
                                                     <span style={{fontWeight: '500'}}>Ladies Skirt</span>
                                                 </span>

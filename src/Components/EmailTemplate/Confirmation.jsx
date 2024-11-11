@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { confirmation } from '../../Helpers/images'
+import { imageAssets } from '../../Helpers/images'
 import { Link } from 'react-router-dom'
 function Confirmation() {
   return (
@@ -9,7 +9,7 @@ function Confirmation() {
 
                 <thead style={{padding: '16px', display: 'block'}}>
                     <tr style={{display: 'block', border: 'none', textAlign: 'center', fontSize: '24px',letterSpacing: '1px'}}>
-                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={confirmation} alt=""/></Link></th>
+                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={imageAssets.user.confirmation} alt=""/></Link></th>
                     </tr>
                 </thead>
     

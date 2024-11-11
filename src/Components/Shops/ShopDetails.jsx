@@ -1,7 +1,7 @@
 import React, { Fragment,useState } from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
-import { tshirt,commentsData,newProduct } from '../../Helpers/images'
+import { imageAssets,commentsData,newProduct } from '../../Helpers/images'
 import { Link } from 'react-router-dom'
 import { FiBookmark, FiEye, FiHeart, FiMail, FiMessageCircle, FiUser } from 'react-icons/fi'
 function ShopDetails() {
@@ -10,23 +10,23 @@ function ShopDetails() {
     let image = [
         {
             id:1,
-            image:tshirt
+            image:imageAssets.products.tshirt
         },
         {
             id:2,
-            image:tshirt
+            image:imageAssets.products.tshirt
         },
         {
             id:3,
-            image:tshirt
+            image:imageAssets.products.tshirt
         },
         {
             id:4,
-            image:tshirt
+            image:imageAssets.products.tshirt
         },
         {
             id:5,
-            image:tshirt
+            image:imageAssets.products.tshirt
         },
     ]
 

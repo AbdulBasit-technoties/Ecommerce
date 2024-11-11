@@ -1,5 +1,5 @@
 import React,{useState, useEffect, Fragment} from 'react'
-import { confirmation } from '../../Helpers/images';
+import { imageAssets } from '../../Helpers/images';
 import { FiArrowLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
@@ -33,7 +33,7 @@ function Maintanance() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/40 to-black"></div>
             <div className="container relative">
                 <div className="grid grid-cols-1">
-                    <Link to="/"><img src={confirmation} className="mx-auto" alt=""/></Link>
+                    <Link to="/"><img src={imageAssets.user.confirmation} className="mx-auto" alt=""/></Link>
                     <h1 className="text-white mb-6 mt-8 md:text-5xl text-3xl font-bold">We Are Back Soon...</h1>
                     <p className="text-white/70 text-lg max-w-xl mx-auto">Start working with Cartzio that can provide everything you need to generate awareness, drive traffic, connect.</p>
                 </div>

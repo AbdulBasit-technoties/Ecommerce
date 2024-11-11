@@ -1,6 +1,6 @@
 import React, { Fragment,useState, useEffect } from 'react'
 import Header from '../Components/Header'
-import { bg,collections,newProduct,sale } from '../Helpers/images';
+import { imageAssets,collections,newProduct } from '../Helpers/images';
 import { Link } from 'react-router-dom';
 import Footer from '../Components/Footer';
 import { FiBookmark, FiEye, FiHeart } from 'react-icons/fi';
@@ -29,7 +29,7 @@ function HomePage1() {
             <Header />
         </div>
         <div className="lg:"></div>
-        <section className="relative md:flex table w-full items-center md:h-screen py-36 bg-emerald-500/5 md:bg-top bg-center bg-no-repeat bg-cover" style={{backgroundImage:`url(${bg})`}}>
+        <section className="relative md:flex table w-full items-center md:h-screen py-36 bg-emerald-500/5 md:bg-top bg-center bg-no-repeat bg-cover" style={{backgroundImage:`url(${imageAssets.home1.bg})`}}>
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid grid-cols-1 justify-center">
                     <div className="text-center">
@@ -122,7 +122,7 @@ function HomePage1() {
             <div className="container-fluid relative md:mt-24 mt-16">
                 <div className="grid grid-cols-1">
                     <div className="relative overflow-hidden py-24 px-4 md:px-10 bg-orange bg-center bg-no-repeat bg-cover" style={{backgroundImage:`url(${bg})`}}>
-                        <div className="absolute inset-0 bg-center bg-no-repeat bg-cover" style={{backgroundImage:`url(${sale})`}}></div>
+                        <div className="absolute inset-0 bg-center bg-no-repeat bg-cover" style={{backgroundImage:`url(${imageAssets.home1.sale})`}}></div>
                         <div className="grid grid-cols-1 justify-center text-center relative z-1">
                             <h3 className="text-4xl leading-normal tracking-wide font-bold text-white">End of Season Clearance <br/> Sale upto 30%</h3>
                             <div id="countdown" className="mt-6">

@@ -1,19 +1,128 @@
 // HEADER LOGO IMAGE //
-export const webLogo = "assets/images/web-logo.png";
+import webLogo from '../assets/images/web-logo.png'
 // navbar
-export const navbar = "/assets/images/navbar.jpg";
-export const shop = "/assets/images/shop.jpg";
+import navbar from "../assets/images/navbar.jpg";
+import shop from "../assets/images/shop.jpg";
 
 
-export const Feature1 = "/assets/images/feature1.jpg";
-export const Feature2 = "/assets/images/feature2.jpg";
-export const Feature3 = "/assets/images/feature3.jpg";
-export const Feature4 = "/assets/images/feature4.jpg";
+import Feature1 from "../assets/images/feature1.jpg";
+import Feature2 from "../assets/images/feature2.jpg";
+import Feature3 from "../assets/images/feature3.jpg";
+import Feature4 from "../assets/images/feature4.jpg";
+
+
+import banner1 from "../assets/images/home3banner1.jpg";
+import banner2 from "../assets/images/home3banner2.jpg";
+import banner3 from "../assets/images/home3banner3.jpg";
 
 // Home 1
-export const bg = "/assets/images/home1bg.png";
-export const homecollection = "/assets/images/homecollection.jpg";
-export const sale = "/assets/images/sale-bg.png";
+import bg from "../assets/images/home1bg.png";
+import homecollection from "../assets/images/homecollection.jpg";
+import sale from "../assets/images/sale-bg.png";
+
+import smart from "../assets/images/smart.jpg";
+
+import about1 from "../assets/images/about1.jpg";
+import about2 from "../assets/images/about2.jpg";
+import about3 from "../assets/images/about3.jpg";
+
+import contact from "../assets/images/contact.svg";
+
+import blog1 from "../assets/images/blog1.jpg";
+import blogdetail from "../assets/images/blogdetail.jpg";
+import blogdetail1 from "../assets/images/blogdetail1.jpg";
+
+import mobile from "../assets/images/mobile.svg";
+import app from "../assets/images/app.png";
+import app1 from "../assets/images/app1.png";
+
+import user from "../assets/images/user_account1.jpg";
+import user_img from "../assets/images/user_img.jpg";
+import payment from "../assets/images/payment.jfif";
+import confirmation from "../assets/images/confirmation.png";
+import product from "../assets/images/black-print-t-shirt.jpg";
+import user_banner_bg from "../assets/images/user_banner_bg.jpg";
+import order from "../assets/images/email_order.svg";
+import career from "../assets/images/career.jpg";
+
+import register from "../assets/images/register.jpg";
+import login from "../assets/images/login.jpg";
+import forgot from "../assets/images/forgotpassword.jpg";
+import error from "../assets/images/error.svg";
+import tshirt from "../assets/images/tshirt.jpg";
+import ourstore from '../assets/images/ourstore.jpg'
+
+
+// Creating the JSON-like object
+export const imageAssets = {
+    navbar: {
+        src: navbar
+    },
+    shop: {
+        src: shop
+    },
+    logo: {
+        src: webLogo
+    },
+    features: {
+      feature1: Feature1,
+      feature2: Feature2,
+      feature3: Feature3,
+      feature4: Feature4
+    },
+    banners: {
+      banner1: banner1,
+      banner2: banner2,
+      banner3: banner3
+    },
+    home1: {
+      bg: bg,
+      homecollection: homecollection,
+      sale: sale
+    },
+    products: {
+      smart: smart,
+      product: product,
+      tshirt: tshirt
+    },
+    about: {
+      about1: about1,
+      about2: about2,
+      about3: about3
+    },
+    contact: {
+      contact: contact,
+      mobile: mobile,
+      app: app,
+      app1: app1
+    },
+    blog: {
+      blog1: blog1,
+      blogdetail: blogdetail,
+      blogdetail1: blogdetail1
+    },
+    user: {
+      user: user,
+      user_img: user_img,
+      confirmation: confirmation,
+      user_banner_bg: user_banner_bg,
+      order: order
+    },
+    auth: {
+      register: register,
+      login: login,
+      forgot: forgot,
+      error: error
+    },
+    payment: {
+      payment: payment,
+      career: career
+    },
+    store: {
+      ourstore: ourstore
+    }
+  };
+  
 
 // Product //
 import product1 from '../assets/images/black-print-t-shirt.jpg'
@@ -377,12 +486,9 @@ export const footerServices = [
     },
 ];
 // HOME PAGE 3 START
-export const banner1 = "/assets/images/home3banner1.jpg";
-export const banner2 = "/assets/images/home3banner2.jpg";
-export const banner3 = "/assets/images/home3banner3.jpg";
+
 
 // HOME PAGE 4 START
-export const smart = "/assets/images/smart.jpg";
 export const categories = [
     {
         image:smart,
@@ -410,9 +516,7 @@ export const categories = [
     },
 ]
 // About
-export const about1 = "/assets/images/about1.jpg";
-export const about2 = "/assets/images/about2.jpg";
-export const about3 = "/assets/images/about3.jpg";
+
 
 
 export const teamData = [
@@ -456,72 +560,69 @@ export const promiseData = [
     },
 ];
 // Contact
-export const contact = "/assets/images/contact.svg";
 
 // Blog
-export const blog1 = "/assets/images/blog1.jpg";
-export const blogdetail = "/assets/images/blogdetail.jpg";
-export const blogdetail1 = "/assets/images/blogdetail1.jpg";
+
 export const blogData = [
     {
         id:1,
-        image:blog1,
+        image:imageAssets.blog.blog1,
         title:'The History Of Patterned Dresses',
         desc:"This is required when, for example, the final text is not yet available.",
         date:'13th Sep 2024'
     },
     {
         id:2,
-        image:blog1,
+        image:imageAssets.blog.blog1,
         title:'Swimsuits For The Whole Family',
         desc:"This is required when, for example, the final text is not yet available.",
         date:'29th Nov 2024'
     },
     {
         id:3,
-        image:blog1,
+        image:imageAssets.blog.blog1,
         title:'Good Products For Lovely Girls',
         desc:"This is required when, for example, the final text is not yet available.",
         date:'29th Dec 2024'
     },
     {
         id:4,
-        image:blog1,
+        image:imageAssets.blog.blog1,
         title:'Latest Swimsuit Model This Year',
         desc:"This is required when, for example, the final text is not yet available.",
         date:'13th March 2024'
     },
     {
         id:5,
-        image:blog1,
+        image:imageAssets.blog.blog1,
         title:'Summer Travel Fashion 2023',
         desc:"This is required when, for example, the final text is not yet available.",
         date:'5th May 2024'
     },
     {
         id:6,
-        image:blog1,
+        image:imageAssets.blog.blog1,
         title:'Exploring the Timeless Allure of Fashion',
         desc:"This is required when, for example, the final text is not yet available.",
         date:'19th June 2024'
     },
     {
         id:7,
-        image:blog1,
+        image:imageAssets.blog.blog1,
         title:'A Chic Journey Through Fashion Trends',
         desc:"This is required when, for example, the final text is not yet available.",
         date:'20th June 2024'
     },
     {
         id:8,
-        image:blog1,
+        image:imageAssets.blog.blog1,
         title:'Unique Autumn Fashion Ideas',
         desc:"This is required when, for example, the final text is not yet available.",
         date:'31st Aug 2024'
     },
     {
         id:9,
-        image:blog1,
+        image:imageAssets.blog.blog1,
         title:'Tips For Wearing Loose T-shirts',
         desc:"This is required when, for example, the final text is not yet available.",
         date:'1st Sep 2024'
@@ -532,9 +633,7 @@ export const social = [
     FiFacebook,FiInstagram,FiTwitter,FiLinkedin,FiGithub,FiYoutube,FiGitlab
 ]
 // SALE 
-export const mobile = "/assets/images/mobile.svg";
-export const app = "/assets/images/app.png";
-export const app1 = "/assets/images/app1.png";
+
 export const salesData = [
     {
         tag:'20% Off',
@@ -563,8 +662,7 @@ export const salesData = [
 ]
 // My Acoount //
 // User Account //
-export const user = "/assets/images/user_account1.jpg";
-export const user_img = "/assets/images/user_img.jpg";
+
 export const userOrder = [
     {
         no:'7107',
@@ -609,7 +707,6 @@ export const userFvtItem = [
     },
 ]
 // PAYMENT
-export const payment = "/assets/images/payment.jfif";
 export const paymentMethod = [
     {
         image:payment,
@@ -665,15 +762,10 @@ export const userSocial = [
         desc: 'Add your YouTube URL.'
     }
 ];
-export const confirmation = "/assets/images/confirmation.png";
 // CARTuser_banner_bg
-export const product = "/assets/images/black-print-t-shirt.jpg";
 // OFFER
-export const user_banner_bg = "/assets/images/user_banner_bg.jpg";
 // ORDER SUCCESS
-export const order = "/assets/images/email_order.svg";
 // CAREER
-export const career = "/assets/images/career.jpg";
 
 export const jobData = [
     {
@@ -764,14 +856,11 @@ export const guidenceData = [
     },
 ]
 // LOGIN
-export const register = "/assets/images/register.jpg";
-export const login = "/assets/images/login.jpg";
-export const forgot = "/assets/images/forgotpassword.jpg";
+
 // terms of service
 export const termsData = [
     'Digital Marketing Solutions for Tomorrow','Our Talented & Experienced Marketing Agency','Create your own skin to match your brand','Digital Marketing Solutions for Tomorrow','Our Talented & Experienced Marketing Agency','Create your own skin to match your brand'
 ]
-export const error = "/assets/images/error.svg";
 // Color filter
 export const colorFilter = [
     'bg-red-600','bg-indigo-600','bg-emerald-600','bg-slate-900','bg-gray','bg-orange','bg-violet-600'
@@ -783,28 +872,27 @@ export const sizeFilter = [
     'S','M','L','XL','2XL','3XL','4XL'
 ]
 // product detail
-export const tshirt = "/assets/images/tshirt.jpg";
 export const commentsData = [
     {
-        image:tshirt,
+        image:imageAssets.products.tshirt,
         name:'Calvin Carlo',
         time:'13th March 2024 at 01:00 pm',
         desc:'" There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour "'
     },
     {
-        image:tshirt,
+        image:imageAssets.products.tshirt,
         name:'Calvin Carlo',
         time:'5th May 2024 at 10:00 am',
         desc:'" There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour "'
     },
     {
-        image:tshirt,
+        image:imageAssets.products.tshirt,
         name:'Calvin Carlo',
         time:'19th June 2024 at 00:00 1m',
         desc:'" There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour "'
     },
     {
-        image:tshirt,
+        image:imageAssets.products.tshirt,
         name:'Calvin Carlo',
         time:'20th June 2024 at 01:30 pm',
         desc:'" There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour "'
@@ -831,7 +919,6 @@ export const cartData = [
     },
 ]
 // ourstore
-export const ourstore = '../assets/images/ourstore.jpg'
 // brands
 export const brand = [
     {

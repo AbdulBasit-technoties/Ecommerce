@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import Footer from '../Footer.jsx'
-import {userFvtItem,userOrder,user_img} from '../../Helpers/images.js'
+import {userFvtItem,userOrder,imageAssets} from '../../Helpers/images.js'
 import { Link } from 'react-router-dom'
 import { FiAirplay, FiBell, FiCreditCard, FiEdit, FiFileText, FiLogOut, FiSettings, FiShare2, FiTrash2 } from 'react-icons/fi'
 import Header from '../Header.jsx'
@@ -24,7 +24,7 @@ function UserAccount() {
                         <input id="pro-img" name="profile-image" type="file" className="hidden" onChange={(e) =>handleChange(e)} />
                         <div>
                             <div className="relative h-28 w-28 mx-auto">
-                                <img src={user_img} className="rounded-full shadow dark:shadow-gray-800 ring-4 ring-slate-50 dark:ring-slate-800" id="profile-image" alt=""/>
+                                <img src={imageAssets.user.user_img} className="rounded-full shadow dark:shadow-gray-800 ring-4 ring-slate-50 dark:ring-slate-800" id="profile-image" alt=""/>
                                 <label className="absolute inset-0 cursor-pointer" htmlFor="pro-img"></label>
                             </div>
 

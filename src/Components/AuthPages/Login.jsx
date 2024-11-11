@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
-import { login,webLogo } from '../../Helpers/images'
+import { imageAssets } from '../../Helpers/images'
 import { FiArrowLeft } from 'react-icons/fi'
 
 function Login() {
@@ -12,13 +12,13 @@ function Login() {
                     <div className="relative overflow-hidden rounded-md shadow dark:shadow-gray-700 bg-white dark:bg-slate-900">
                         <div className="grid md:grid-cols-2 grid-cols-1 items-center">
                             <div className="relative md:shrink-0">
-                                <img className="lg:h-full h-full w-full object-cover md:h-[34rem]" src={login} alt=""/>
+                                <img className="lg:h-full h-full w-full object-cover md:h-[34rem]" src={imageAssets.auth.login} alt=""/>
                             </div>
 
                             <div className="p-8 lg:px-20">
                                 <div className="text-center">
                                     <Link to="/">
-                                        <img src={webLogo} className="mx-auto block dark:hidden" alt=""/>
+                                        <img src={imageAssets.logo.src} className="mx-auto block dark:hidden" alt=""/>
                                     </Link>
                                 </div>
 

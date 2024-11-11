@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { webLogo, navbar, shop } from '../Helpers/images';
+import { imageAssets } from '../Helpers/images';
 import Nav from './Nav';
 import { Link, useLocation } from 'react-router-dom';
 import { FiDollarSign, FiHelpCircle, FiLogOut, FiHeart, FiSearch, FiSettings, FiShoppingCart, FiUser } from "react-icons/fi";
@@ -133,7 +133,7 @@ function Header({ navlight }) {
         <div className='container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4'>
           <div className='flex items-center justify-between'>
             <div className='web-logo'>
-              <Link to='/'><img src={webLogo} alt="Logo" /></Link>
+              <Link to='/'><img src={imageAssets.logo.src} alt="Logo" /></Link>
             </div>
 
             <div className='main-menu lg:block sm:hidden'>
@@ -172,7 +172,7 @@ function Header({ navlight }) {
                       <li className='ms-0'>
                         <Link to="#" className="flex items-center justify-between py-1.5 px-4">
                           <span className="flex items-center">
-                            <img src={shop} className="rounded shadow dark:shadow-gray w-9" alt="" />
+                            <img src={imageAssets.shop.src} className="rounded shadow dark:shadow-gray w-9" alt="" />
                             <span className="ms-3">
                               <span className="block font-semibold">T-shirt (M)</span>
                               <span className="block text-sm text-slate-400">$320 X 2</span>
@@ -186,7 +186,7 @@ function Header({ navlight }) {
                       <li className='ms-0'>
                         <Link to="#" className="flex items-center justify-between py-1.5 px-4">
                           <span className="flex items-center">
-                            <img src={shop} className="rounded shadow dark:shadow-gray w-9" alt="" />
+                            <img src={imageAssets.shop.src} className="rounded shadow dark:shadow-gray w-9" alt="" />
                             <span className="ms-3">
                               <span className="block font-semibold">Bag</span>
                               <span className="block text-sm text-slate-400">$50 X 5</span>
@@ -200,7 +200,7 @@ function Header({ navlight }) {
                       <li className='ms-0'>
                         <Link to="#" className="flex items-center justify-between py-1.5 px-4">
                           <span className="flex items-center">
-                            <img src={shop} className="rounded shadow dark:shadow-gray w-9" alt="" />
+                            <img src={imageAssets.shop.src} className="rounded shadow dark:shadow-gray w-9" alt="" />
                             <span className="ms-3">
                               <span className="block font-semibold">Watch (Men)</span>
                               <span className="block text-sm text-slate-400">$800 X 1</span>
@@ -238,7 +238,7 @@ function Header({ navlight }) {
 
               <li className="dropdown inline-block relative ps-0.5" ref={userRef}>
                 <button data-dropdown-toggle="dropdown" className="dropdown-toggle items-center" type="button" onClick={() => setUserManu(!userManu)}>
-                  <span className="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-orange bg-orange text-white"><img src={navbar} className="rounded-full" alt="" /></span>
+                  <span className="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-orange bg-orange text-white"><img src={imageAssets.navbar.src} className="rounded-full" alt="" /></span>
                 </button>
                 {userManu && (
                   <div className="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-48 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-700">

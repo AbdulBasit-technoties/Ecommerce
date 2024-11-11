@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { confirmation,product } from '../../Helpers/images'
+import { imageAssets } from '../../Helpers/images'
 import { Link } from 'react-router-dom'
 function ItemReview() {
   return (
@@ -9,7 +9,7 @@ function ItemReview() {
 
                 <thead style={{padding: '16px', display: 'block'}}>
                     <tr style={{display: 'block', border: 'none', textAlign: 'center', fontSize: '24px',letterSpacing: '1px'}}>
-                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={confirmation} alt=""/></Link></th>
+                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={imageAssets.user.confirmation} alt=""/></Link></th>
                     </tr>
                 </thead>
     
@@ -32,7 +32,7 @@ function ItemReview() {
                             <table>
                                 <tr>
                                     <td>
-                                        <img src={product} width="200px" style={{borderRadius: '5px', boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)'}} alt=""/>
+                                        <img src={imageAssets.products.product} width="200px" style={{borderRadius: '5px', boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)'}} alt=""/>
                                         <p style={{margin: '6px 0 0', fontSize: '18px', fontWeight: '500'}}>Yellow Luxurious Bag</p>
                                     </td>
                                 </tr>

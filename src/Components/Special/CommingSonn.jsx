@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import { Fragment } from 'react';
 import { Link } from 'react-router-dom'
-import { confirmation } from '../../Helpers/images';
+import { imageAssets } from '../../Helpers/images';
 import { FiArrowLeft } from 'react-icons/fi';
 function CommingSoon() {
     let [days, setDays] = useState(0);
@@ -29,7 +29,7 @@ function CommingSoon() {
                 <div className="grid grid-cols-1">
                     <div className="flex flex-col min-h-screen justify-center md:px-10 py-10 px-4">
                         <div className="text-center">
-                            <Link to="/"><img src={confirmation} className="mx-auto" alt=""/></Link>
+                            <Link to="/"><img src={imageAssets.user.confirmation} className="mx-auto" alt=""/></Link>
                         </div>
                         <div className="title-heading text-center my-auto">
                             <h1 className="text-white mt-3 mb-6 md:text-5xl text-3xl font-bold">We Are Coming Soon...</h1>

@@ -3,7 +3,7 @@ import Header from '../Header'
 import Footer from '../Footer'
 import { Link } from 'react-router-dom'
 import { FiLink, FiMail, FiMapPin, FiPhone } from 'react-icons/fi'
-import { webLogo } from '../../Helpers/images'
+import { imageAssets } from '../../Helpers/images'
 function Invoice() {
   return (
     <Fragment>
@@ -18,7 +18,7 @@ function Invoice() {
                             <div className="border-b border-gray-100 dark:border-gray-700 pb-6">
                                 <div className="md:flex justify-between">
                                     <div>
-                                        <img src={webLogo} className="block dark:hidden" alt=""/>
+                                        <img src={imageAssets.logo.src} className="block dark:hidden" alt=""/>
                                         <div className="flex mt-4">
                                             <FiLink className="h-4 w-4 me-3 mt-1"></FiLink>
                                             <Link to="https://1.envato.market/shreethemes-portfolio" target="_blank" className="text-orange dark:text-white font-medium">https://1.envato.market/shreethemes-portfolio</Link>

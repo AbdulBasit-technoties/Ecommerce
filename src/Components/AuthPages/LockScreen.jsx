@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { user } from '../../Helpers/images'
+import { imageAssets } from '../../Helpers/images'
 import { Link } from 'react-router-dom'
 import { FiArrowLeft } from 'react-icons/fi'
 function LockScreen() {
@@ -11,7 +11,7 @@ function LockScreen() {
                 <div className="flex justify-center">
                     <div className="max-w-[400px] w-full m-auto p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800 rounded-md">
                         <div className="text-center">
-                            <img src={user} className="mx-auto h-28 w-28 rounded-full shadow dark:shadow-gray-800" alt=""/>
+                            <img src={imageAssets.user.user} className="mx-auto h-28 w-28 rounded-full shadow dark:shadow-gray-800" alt=""/>
                             <h5 className="mb-6 mt-4 text-xl font-semibold">Jesus Zamora</h5>
                         </div>
                         <form>

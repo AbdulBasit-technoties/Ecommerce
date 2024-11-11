@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
-import { confirmation } from '../../Helpers/images'
+import { imageAssets } from '../../Helpers/images'
 import { Link } from 'react-router-dom'
-import { user_banner_bg,user } from '../../Helpers/images'
 function Offer() {
   return (
     <Fragment>
@@ -10,7 +9,7 @@ function Offer() {
 
                 <thead style={{padding: '16px', display: 'block'}}>
                     <tr style={{display: 'block', border: 'none', textAlign: 'center', fontSize: '24px',letterSpacing: '1px'}}>
-                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={confirmation} alt=""/></Link></th>
+                        <th scope="col" style={{margin: 'auto', display: 'block'}}><Link to="/" style={{display:'flex', justifyContent:'center'}}><img src={imageAssets.user.confirmation} alt=""/></Link></th>
                     </tr>
                 </thead>
     
@@ -53,21 +52,21 @@ function Offer() {
                             <table>
                                 <tr>
                                     <td style={{padding: '0 8px 16px'}}>
-                                        <img src={user} width="100%" style={{borderRadius: '5px', boxShadow:' 0 0 3px rgba(60, 72, 88, 0.15)'}} alt=""/>
+                                        <img src={imageAssets.user.user} width="100%" style={{borderRadius: '5px', boxShadow:' 0 0 3px rgba(60, 72, 88, 0.15)'}} alt=""/>
                                         <Link to="" style={{textDecoration: 'none', fontWeight: '500', display: 'block', margin: '10px 0 0', width: '100%', color: '#161c2d'}}>Smart Watch</Link>
 
                                         <Link to="/ShopGrid" style={{padding: '8px 20px', outline: 'none', display: 'inline-block', margin:' 10px 0 0', textDecoration: 'none', fontSize: '14px', letterSpacing: '0.5px', transition: 'all 0.3s', fontWeight: '500', borderRadius:' 6px', backgroundColor: '#161c2d', border: '1px solid #161c2d', color: '#fff'}}>Shop Now</Link>
                                     </td>
 
                                     <td style={{padding: '0 8px 16px'}}>
-                                        <img src={user} width="100%" style={{borderRadius: '5px', boxShadow:' 0 0 3px rgba(60, 72, 88, 0.15)'}} alt=""/>
+                                        <img src={imageAssets.user.user} width="100%" style={{borderRadius: '5px', boxShadow:' 0 0 3px rgba(60, 72, 88, 0.15)'}} alt=""/>
                                         <Link to="" style={{textDecoration: 'none', fontWeight: '500', display: 'block', margin: '10px 0 0', width: '100%', color: '#161c2d'}}>Ladies Skirt</Link>
 
                                         <Link to="/ShopGrid" style={{padding: '8px 20px', outline: 'none', display: 'inline-block', margin:' 10px 0 0', textDecoration: 'none', fontSize: '14px', letterSpacing: '0.5px', transition: 'all 0.3s', fontWeight: '500', borderRadius:' 6px', backgroundColor: '#161c2d', border: '1px solid #161c2d', color: '#fff'}}>Shop Now</Link>
                                     </td>
                                     
                                     <td style={{padding: '0 8px 16px'}}>
-                                        <img src={user} width="100%" style={{borderRadius: '5px', boxShadow:' 0 0 3px rgba(60, 72, 88, 0.15)'}} alt=""/>
+                                        <img src={imageAssets.user.user} width="100%" style={{borderRadius: '5px', boxShadow:' 0 0 3px rgba(60, 72, 88, 0.15)'}} alt=""/>
                                         <Link to="" style={{textDecoration: 'none', fontWeight: '500', display: 'block', margin: '10px 0 0', width: '100%', color: '#161c2d'}}>Ladies Bag</Link>
 
                                         <Link to="/ShopGrid" style={{padding: '8px 20px', outline: 'none', display: 'inline-block', margin:' 10px 0 0', textDecoration: 'none', fontSize: '14px', letterSpacing: '0.5px', transition: 'all 0.3s', fontWeight: '500', borderRadius:' 6px', backgroundColor: '#161c2d', border: '1px solid #161c2d', color: '#fff'}}>Shop Now</Link>
