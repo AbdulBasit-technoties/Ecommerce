@@ -1,19 +1,19 @@
 // HEADER LOGO IMAGE //
-export const webLogo = "/assets/images/web-logo.png";
+export const webLogo = "../assets/images/web-logo.png";
 // navbar
-export const navbar = "/assets/images/navbar.jpg";
-export const shop = "/assets/images/shop.jpg";
+export const navbar = "../assets/images/navbar.jpg";
+export const shop = "../assets/images/shop.jpg";
 
 
-export const Feature1 = "/assets/images/feature1.jpg";
-export const Feature2 = "/assets/images/feature2.jpg";
-export const Feature3 = "/assets/images/feature3.jpg";
-export const Feature4 = "/assets/images/feature4.jpg";
+export const Feature1 = "../assets/images/feature1.jpg";
+export const Feature2 = "../assets/images/feature2.jpg";
+export const Feature3 = "../assets/images/feature3.jpg";
+export const Feature4 = "../assets/images/feature4.jpg";
 
 // Home 1
-export const bg = "/assets/images/home1bg.png";
-export const homecollection = "/assets/images/homecollection.jpg";
-export const sale = "/assets/images/sale-bg.png";
+export const bg = "../assets/images/home1bg.png";
+export const homecollection = "../assets/images/homecollection.jpg";
+export const sale = "../assets/images/sale-bg.png";
 
 // Product //
 import product1 from '../assets/images/black-print-t-shirt.jpg'
@@ -377,12 +377,12 @@ export const footerServices = [
     },
 ];
 // HOME PAGE 3 START
-export const banner1 = "/assets/images/home3banner1.jpg";
-export const banner2 = "/assets/images/home3banner2.jpg";
-export const banner3 = "/assets/images/home3banner3.jpg";
+export const banner1 = "../assets/images/home3banner1.jpg";
+export const banner2 = "../assets/images/home3banner2.jpg";
+export const banner3 = "../assets/images/home3banner3.jpg";
 
 // HOME PAGE 4 START
-export const smart = "/assets/images/smart.jpg";
+export const smart = "../assets/images/smart.jpg";
 export const categories = [
     {
         image:smart,
@@ -410,9 +410,9 @@ export const categories = [
     },
 ]
 // About
-export const about1 = "/assets/images/about1.jpg";
-export const about2 = "/assets/images/about2.jpg";
-export const about3 = "/assets/images/about3.jpg";
+export const about1 = "../assets/images/about1.jpg";
+export const about2 = "../assets/images/about2.jpg";
+export const about3 = "../assets/images/about3.jpg";
 
 
 export const teamData = [
@@ -456,12 +456,12 @@ export const promiseData = [
     },
 ];
 // Contact
-export const contact = "/assets/images/contact.svg";
+export const contact = "../assets/images/contact.svg";
 
 // Blog
-export const blog1 = "/assets/images/blog1.jpg";
-export const blogdetail = "/assets/images/blogdetail.jpg";
-export const blogdetail1 = "/assets/images/blogdetail1.jpg";
+export const blog1 = "../assets/images/blog1.jpg";
+export const blogdetail = "../assets/images/blogdetail.jpg";
+export const blogdetail1 = "../assets/images/blogdetail1.jpg";
 export const blogData = [
     {
         id:1,
@@ -532,9 +532,9 @@ export const social = [
     FiFacebook,FiInstagram,FiTwitter,FiLinkedin,FiGithub,FiYoutube,FiGitlab
 ]
 // SALE 
-export const mobile = "/assets/images/mobile.svg";
-export const app = "/assets/images/app.png";
-export const app1 = "/assets/images/app1.png";
+export const mobile = "../assets/images/mobile.svg";
+export const app = "../assets/images/app.png";
+export const app1 = "../assets/images/app1.png";
 export const salesData = [
     {
         tag:'20% Off',
@@ -563,8 +563,8 @@ export const salesData = [
 ]
 // My Acoount //
 // User Account //
-export const user = "/assets/images/user_account1.jpg";
-export const user_img = "/assets/images/user_img.jpg";
+export const user = "../assets/images/user_account1.jpg";
+export const user_img = "../assets/images/user_img.jpg";
 export const userOrder = [
     {
         no:'7107',
@@ -609,7 +609,7 @@ export const userFvtItem = [
     },
 ]
 // PAYMENT
-export const payment = "/assets/images/payment.jfif";
+export const payment = "../assets/images/payment.jfif";
 export const paymentMethod = [
     {
         image:payment,
@@ -665,15 +665,15 @@ export const userSocial = [
         desc: 'Add your YouTube URL.'
     }
 ];
-export const confirmation = "/assets/images/confirmation.png";
+export const confirmation = "../assets/images/confirmation.png";
 // CARTuser_banner_bg
-export const product = "/assets/images/black-print-t-shirt.jpg";
+export const product = "../assets/images/black-print-t-shirt.jpg";
 // OFFER
-export const user_banner_bg = "/assets/images/user_banner_bg.jpg";
+export const user_banner_bg = "../assets/images/user_banner_bg.jpg";
 // ORDER SUCCESS
-export const order = "/assets/images/email_order.svg";
+export const order = "../assets/images/email_order.svg";
 // CAREER
-export const career = "/assets/images/career.jpg";
+export const career = "../assets/images/career.jpg";
 
 export const jobData = [
     {
@@ -764,14 +764,14 @@ export const guidenceData = [
     },
 ]
 // LOGIN
-export const register = "/assets/images/register.jpg";
-export const login = "/assets/images/login.jpg";
-export const forgot = "/assets/images/forgotpassword.jpg";
+export const register = "../assets/images/register.jpg";
+export const login = "../assets/images/login.jpg";
+export const forgot = "../assets/images/forgotpassword.jpg";
 // terms of service
 export const termsData = [
     'Digital Marketing Solutions for Tomorrow','Our Talented & Experienced Marketing Agency','Create your own skin to match your brand','Digital Marketing Solutions for Tomorrow','Our Talented & Experienced Marketing Agency','Create your own skin to match your brand'
 ]
-export const error = "/assets/images/error.svg";
+export const error = "../assets/images/error.svg";
 // Color filter
 export const colorFilter = [
     'bg-red-600','bg-indigo-600','bg-emerald-600','bg-slate-900','bg-gray','bg-orange','bg-violet-600'
@@ -783,7 +783,7 @@ export const sizeFilter = [
     'S','M','L','XL','2XL','3XL','4XL'
 ]
 // product detail
-export const tshirt = "/assets/images/tshirt.jpg";
+export const tshirt = "../assets/images/tshirt.jpg";
 export const commentsData = [
     {
         image:tshirt,
