@@ -29,7 +29,7 @@ function HomePage1() {
             <Header />
         </div>
         <div className="lg:"></div>
-        <section className="relative md:flex table w-full items-center md:h-screen py-36 bg-emerald-500/5 md:bg-top bg-center bg-no-repeat bg-cover" style={{backgroundImage:`url(${imageAssets.home1.bg})`}}>
+        <section className="relative md:flex table w-full items-center md:h-screen py-36 bg-emerald-500/5 md:bg-top bg-center bg-no-repeat bg-cover" >
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid grid-cols-1 justify-center">
                     <div className="text-center">
