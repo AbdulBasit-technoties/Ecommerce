@@ -73,7 +73,7 @@ function HomePage1() {
                     {newProduct.slice(0,12).map((item, index)=>{
                         return(
                             <div className="group" key={index}>
-                                <div className="relative overflow-hidden shadow dark:shadow-gray-800 group-hover:shadow-lg group-hover:dark:shadow-gray-800 rounded-md duration-500">
+                                <div className="relative overflow-hidden shadow dark:shadow-gray group-hover:shadow-lg group-hover:dark:shadow-gray-800 rounded-md duration-500">
                                     <img src={item.image} className="group-hover:scale-110 duration-500" alt=""/>
             
                                     <div className="absolute -bottom-20 group-hover:bottom-3 start-3 end-3 duration-500">
