@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { categories } from '../Helpers/images'
 import { FiBookmark, FiEye, FiHeart } from 'react-icons/fi'
 import { newProduct,bestSaller } from '../Helpers/images';
-import Webtitle from '../components/Webtitle'
+import {Webtitle} from '../Components/Webtitle'
 import { MdStar } from 'react-icons/md'
 import SaleOutLate from '../Components/SaleOutLate'
 import CustomerReview from '../Components/CustomerReview'
