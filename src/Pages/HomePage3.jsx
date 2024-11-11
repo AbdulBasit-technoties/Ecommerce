@@ -23,21 +23,21 @@ function HomePage3() {
                     <div className="relative overflow-hidden group">
                         <Link to="" className="text-center">
                             <img src={imageAssets.banners.banner1} className="group-hover:scale-110 duration-500" alt=""/>
-                            <span className="bg-white dark:bg-slate-900 group-hover:text-orange-500 py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">Ladies Wear</span>
+                            <span className="bg-white group-hover:text-orange-500 py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">Ladies Wear</span>
                         </Link>
                     </div>
                     
                     <div className="relative overflow-hidden group">
                         <Link to="" className="text-center">
                             <img src={imageAssets.banners.banner2} className="group-hover:scale-110 duration-500" alt=""/>
-                            <span className="bg-white dark:bg-slate-900 group-hover:text-orange-500 py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">Kids Wear</span>
+                            <span className="bg-white group-hover:text-orange-500 py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">Kids Wear</span>
                         </Link>
                     </div>
                     
                     <div className="relative overflow-hidden group">
                         <Link to="" className="text-center">
                             <img src={imageAssets.banners.banner3} className="group-hover:scale-110 duration-500" alt=""/>
-                            <span className="bg-white dark:bg-slate-900 group-hover:text-orange-500 py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">Gents Wear</span>
+                            <span className="bg-white group-hover:text-orange-500 py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">Gents Wear</span>
                         </Link>
                     </div>
                 </div>

@@ -36,7 +36,7 @@ function SalePage() {
                                             <p className="text-white/70 mt-2">Use this below code <br/>{item.desc}</p>
                                         </div>
 
-                                        <div className="p-6 bg-white dark:bg-slate-900">
+                                        <div className="p-6 bg-white">
                                             <p className="text-sm font-medium uppercase">Use Code</p>
                                             <h5 className="text-xl font-semibold uppercase mt-1">{item.code}</h5>
                                         </div>

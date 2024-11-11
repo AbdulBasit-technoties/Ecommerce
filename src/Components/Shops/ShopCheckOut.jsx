@@ -245,7 +245,7 @@ function ShopCheckOut() {
                     </div>
 
                     <div className="inline-block">
-                        <div className="pt-4 flex items-center border-t border-gray-100 dark:border-gray-800">
+                        <div className="pt-4 flex items-center border-t border-gray-100">
                             <FiSmartphone className="me-2 text-orange h-10 w-10"></FiSmartphone>
                             <div className="content">
                                 <h6 className="text-base font-medium">Install app now on your cellphones</h6>

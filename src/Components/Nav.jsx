@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { IoMdArrowDropdown } from 'react-icons/io';
 
-export default function Nav() {
+export default function Nav(props) {
   const [dropdown, setDropdown] = useState(null);
   const [subDropdown, setSubDropdown] = useState(null);
   const location = useLocation();

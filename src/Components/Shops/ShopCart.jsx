@@ -12,7 +12,7 @@ function ShopCart() {
         <div className="main-heder absolute top-0 w-full z-[999] bg-white">
             <Header />
         </div>
-        <section className="relative table w-full py-20 lg:py-24 md:pt-28 bg-[#f9fafb] dark:bg-slate-800">
+        <section className="relative table w-full py-20 lg:py-24 md:pt-28 bg-[#f9fafb] ">
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid grid-cols-1 mt-14">
                     <h3 className="text-3xl leading-normal font-semibold">Fashion</h3>
@@ -21,7 +21,7 @@ function ShopCart() {
                 <div className="relative mt-3">
                     <ul className="tracking-[0.5px] mb-0 inline-block">
                         <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-orange"><Link to="/">Cartzio</Link></li>
-                        <li className="inline-block text-base text-slate-950 dark:text-white mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
+                        <li className="inline-block text-base text-slate-950 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                         <li className="inline-block uppercase text-[13px] font-bold text-orange" aria-current="page">SHOPCART</li>
                     </ul>
                 </div>
@@ -31,9 +31,9 @@ function ShopCart() {
         <section className="relative md:py-24 py-16">
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid lg:grid-cols-1">
-                    <div className="relative overflow-x-auto shadow dark:shadow-gray-800 rounded-md">
+                    <div className="relative overflow-x-auto shadow rounded-md">
                         <table className="w-full text-start">
-                            <thead className="text-sm uppercase bg-slate-50 dark:bg-slate-800">
+                            <thead className="text-sm uppercase bg-slate-50 ">
                                 <tr>
                                     <th scope="col" className="p-4 w-4"></th>
                                     <th scope="col" className="text-start p-4 min-w-[220px]">Product</th>
@@ -45,11 +45,11 @@ function ShopCart() {
                             <tbody>
                                 {cartData.map((item,index) =>{
                                     return(
-                                        <tr className="bg-white dark:bg-slate-900 border-t border-gray-100 dark:border-gray-800" key={index}>
+                                        <tr className="bg-white border-t border-gray-100" key={index}>
                                             <td className="p-4"><Link to=""><i className="mdi mdi-window-close text-red-600"></i></Link></td>
                                             <td className="p-4">
                                                 <span className="flex items-center">
-                                                    <img src={item.image} className="rounded shadow dark:shadow-gray-800 w-12" alt=""/>
+                                                    <img src={item.image} className="rounded shadow w-12" alt=""/>
                                                     <span className="ms-3">
                                                         <span className="block font-semibold">{item.name}</span>
                                                     </span>
@@ -76,16 +76,16 @@ function ShopCart() {
                         </div>
 
                         <div className="lg:col-span-3 md:order-2 order-1">
-                            <ul className="list-none shadow dark:shadow-gray-800 rounded-md">
+                            <ul className="list-none shadow rounded-md">
                                 <li className="flex justify-between p-4">
                                     <span className="font-semibold text-lg">Subtotal :</span>
                                     <span className="text-slate-400">$ 1500</span>
                                 </li>
-                                <li className="flex justify-between p-4 border-t border-gray-100 dark:border-gray-800">
+                                <li className="flex justify-between p-4 border-t border-gray-100">
                                     <span className="font-semibold text-lg">Taxes :</span>
                                     <span className="text-slate-400">$ 150</span>
                                 </li>
-                                <li className="flex justify-between font-semibold p-4 border-t border-gray-200 dark:border-gray-600">
+                                <li className="flex justify-between font-semibold p-4 border-t border-gray-200">
                                     <span className="font-semibold text-lg">Total :</span>
                                     <span className="font-semibold">$ 1650</span>
                                 </li>
@@ -111,7 +111,7 @@ function ShopCart() {
                     </div>
 
                     <div className="inline-block">
-                        <div className="pt-4 flex items-center border-t border-gray-100 dark:border-gray-800">
+                        <div className="pt-4 flex items-center border-t border-gray-100">
                             <FiSmartphone className="me-2 text-orange h-10 w-10"></FiSmartphone>
                             <div className="content">
                                 <h6 className="text-base font-medium">Install app now on your cellphones</h6>

@@ -11,7 +11,7 @@ function ShopGridLeft() {
         <div className="main-heder absolute top-0 w-full z-[999] bg-white">
             <Header />
         </div>
-        <section className="relative table w-full py-20 lg:py-24 md:pt-28 bg-[#f9fafb] dark:bg-slate-800">
+        <section className="relative table w-full py-20 lg:py-24 md:pt-28 bg-[#f9fafb]">
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid grid-cols-1 mt-14">
                     <h3 className="text-3xl leading-normal font-semibold">Fashion</h3>
@@ -20,7 +20,7 @@ function ShopGridLeft() {
                 <div className="relative mt-3">
                     <ul className="tracking-[0.5px] mb-0 inline-block">
                         <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-orange"><Link to="/">Cartzio</Link></li>
-                        <li className="inline-block text-base text-slate-950 dark:text-white mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
+                        <li className="inline-block text-base text-slate-950 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                         <li className="inline-block uppercase text-[13px] font-bold text-orange" aria-current="page">Shop Grid</li>
                     </ul>
                 </div>
@@ -36,7 +36,7 @@ function ShopGridLeft() {
         
                             <div className="md:flex items-center">
                                 <label className="font-semibold md:me-2">Sort by:</label>
-                                <select className="form-select form-input md:w-36 w-full md:mt-0 mt-1 py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0">
+                                <select className="form-select form-input md:w-36 w-full md:mt-0 mt-1 py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-100 focus:ring-0">
                                     <option defaultValue="">Featured</option>
                                     <option defaultValue="">Sale</option>
                                     <option defaultValue="">Alfa A-Z</option>
@@ -100,27 +100,27 @@ function ShopGridLeft() {
                             <nav aria-label="Page navigation example">
                                 <ul className="inline-flex items-center -space-x-px">
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-s-3xl hover:text-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 bg-white rounded-s-3xl hover:text-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">
                                             <FiChevronLeft className="size-5 rtl:rotate-180 rtl:-mt-1"></FiChevronLeft>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">1</Link>
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">1</Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">2</Link>
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">2</Link>
                                     </li>
                                     <li>
                                         <Link to="#" aria-current="page" className="z-10 size-[40px] inline-flex justify-center items-center text-white bg-orange border border-orange">3</Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">4</Link>
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">4</Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">5</Link>
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">5</Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-e-3xl hover:text-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 bg-white rounded-e-3xl hover:text-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">
                                             <FiChevronRight className="size-5 rtl:rotate-180 rtl:-mt-1"></FiChevronRight>
                                         </Link>
                                     </li>

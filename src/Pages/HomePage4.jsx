@@ -37,10 +37,10 @@ function HomePage4() {
             <div className="grid xl:grid-cols-6 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
                 {categories.map((item,index)=>{
                     return(
-                        <div key={index} className="relative overflow-hidden group rounded-md shadow dark:shadow-slate-800">
+                        <div key={index} className="relative overflow-hidden group rounded-md shadow">
                             <Link to="" className="text-center">
                                 <img src={item.image} className="group-hover:scale-110 duration-500" alt=""/>
-                                <span className="bg-white dark:bg-slate-900 group-hover:text-orange py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">{item.title}</span>
+                                <span className="bg-white group-hover:text-orange py-2 px-6 rounded-full shadow dark:shadow-gray-800 absolute bottom-4 mx-4 text-lg font-medium">{item.title}</span>
                             </Link>
                         </div>
                     )

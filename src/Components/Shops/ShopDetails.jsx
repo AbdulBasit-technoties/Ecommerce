@@ -7,7 +7,7 @@ import { FiBookmark, FiEye, FiHeart, FiMail, FiMessageCircle, FiUser } from 'rea
 function ShopDetails() {
     let[activeTab, setActiveTab] = useState(1)
     let [activeImage, setActiveImage] = useState(1)
-    let image = [
+    const image = [
         {
             id:1,
             image:imageAssets.products.tshirt
@@ -45,7 +45,7 @@ function ShopDetails() {
         <div className="main-heder absolute top-0 w-full z-[999] bg-white">
             <Header />
         </div>
-        <section className="relative table w-full py-20 lg:py-24 md:pt-28 bg-[#f9fafb] dark:bg-slate-800">
+        <section className="relative table w-full py-20 lg:py-24 md:pt-28 bg-[#f9fafb] ">
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid grid-cols-1 mt-14">
                     <h3 className="text-3xl leading-normal font-semibold">Mens Brown Jecket</h3>
@@ -54,9 +54,9 @@ function ShopDetails() {
                 <div className="relative mt-3">
                     <ul className="tracking-[0.5px] mb-0 inline-block">
                         <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-orange"><Link to="/">Cartzio</Link></li>
-                        <li className="inline-block text-base text-slate-950 dark:text-white mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
+                        <li className="inline-block text-base text-slate-950  mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                         <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-orange"><Link to="/ShopGrid">Store</Link></li>
-                        <li className="inline-block text-base text-slate-950 dark:text-white mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
+                        <li className="inline-block text-base text-slate-950 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                         <li className="inline-block uppercase text-[13px] font-bold text-orange" aria-current="page">Mens Brown Jecket</li>
                     </ul>
                 </div>
@@ -74,7 +74,7 @@ function ShopDetails() {
                                         return(
                                             <li className="p-px" key={index}>
                                                 <Link to="#">
-                                                    <img src={item.image} className="shadow dark:shadow-gray-800 w-full h-auto" alt="" onClick={()=>imageShow(item.id)}/>
+                                                    <img src={item.image} className="shadow w-full h-auto" alt="" onClick={()=>imageShow(item.id)}/>
                                                 </Link>
                                             </li>
                                         )
@@ -82,22 +82,22 @@ function ShopDetails() {
                                 </ul>
                             </li>
 
-                            <li className="img-display shadow dark:shadow-gray-800 m-px w-5/6">
+                            <li className="img-display shadow m-px w-5/6">
                                 <div className="img-showcase flex w-full duration-500">
                                     {activeImage === 1 && (
-                                        <img src={tshirt} className="min-w-full" alt=""/>
+                                        <img src={image} className="min-w-full" alt=""/>
                                     )}
                                     {activeImage === 2 && (
-                                        <img src={tshirt} className="min-w-full" alt=""/>
+                                        <img src={image} className="min-w-full" alt=""/>
                                     )}
                                     {activeImage === 3 && (
-                                        <img src={tshirt} className="min-w-full" alt=""/>
+                                        <img src={image} className="min-w-full" alt=""/>
                                     )}
                                     {activeImage === 4 && (
-                                        <img src={tshirt} className="min-w-full" alt=""/>
+                                        <img src={image} className="min-w-full" alt=""/>
                                     )}
                                     {activeImage === 5 && (
-                                        <img src={tshirt} className="min-w-full" alt=""/>
+                                        <img src={image} className="min-w-full" alt=""/>
                                     )}
                                 </div>
                             </li>
@@ -153,10 +153,10 @@ function ShopDetails() {
                 <div className="flex items-center">
                     <h5 className="text-lg font-semibold me-2">Colors:</h5>
                     <div className="space-x-2">
-                        <Link to="" className="size-6 rounded-full ring-2 ring-gray-200 dark:ring-slate-800 bg-red-600 inline-flex align-middle" title="Red"></Link>
-                        <Link to="" className="size-6 rounded-full ring-2 ring-gray-200 dark:ring-slate-800 bg-orange-600 inline-flex align-middle" title="Orange"></Link>
-                        <Link to="" className="size-6 rounded-full ring-2 ring-gray-200 dark:ring-slate-800 bg-slate-900 inline-flex align-middle" title="Black"></Link>
-                        <Link to="" className="size-6 rounded-full ring-2 ring-gray-200 dark:ring-slate-800 bg-gray-300 inline-flex align-middle" title="Gray"></Link>
+                        <Link to="" className="size-6 rounded-full ring-2 ring-gray-200 bg-red-600 inline-flex align-middle" title="Red"></Link>
+                        <Link to="" className="size-6 rounded-full ring-2 ring-gray-200 bg-orange-600 inline-flex align-middle" title="Orange"></Link>
+                        <Link to="" className="size-6 rounded-full ring-2 ring-gray-200 bg-slate-900 inline-flex align-middle" title="Black"></Link>
+                        <Link to="" className="size-6 rounded-full ring-2 ring-gray-200 bg-gray inline-flex align-middle" title="Gray"></Link>
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@ function ShopDetails() {
                 <div className="grid md:grid-cols-12 grid-cols-1 mt-6 gap-6">
             <div className="lg:col-span-3 md:col-span-5">
                 <div className="sticky top-20">
-                    <ul className="flex-column p-6 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+                    <ul className="flex-column p-6 bg-white  shadow rounded-md" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                         <li className="ms-0">
                             <button className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full hover:text-orange duration-500 ${activeTab === 1 ? 'text-white bg-orange hover:text-white' :''}`} onClick={()=>setActiveTab(1)}>Description</button>
                         </li>
@@ -186,7 +186,7 @@ function ShopDetails() {
             </div>
 
             <div className="lg:col-span-9 md:col-span-7">
-                <div id="myTabContent" className="p-6 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+                <div id="myTabContent" className="p-6 bg-white  shadow rounded-md">
                     {activeTab === 1 && (
                         <div>
                             <p className="text-slate-400">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page (layout or type area). For this reason, dummy text usually consists of a more or less random series of words or syllables.</p>
@@ -196,17 +196,17 @@ function ShopDetails() {
                         <div>
                             <table className="w-full text-start">
                                 <tbody>
-                                    <tr className="bg-white dark:bg-slate-900">
+                                    <tr className="bg-white ">
                                         <td className="font-semibold pb-4" style={{width: '100px'}}>Color</td>
                                         <td className="text-slate-400 pb-4">Red, White, Black, Orange</td>
                                     </tr>
 
-                                    <tr className="bg-white dark:bg-slate-900 border-t border-gray-100 dark:border-gray-700">
+                                    <tr className="bg-white  border-t border-gray-100">
                                         <td className="font-semibold py-4">Material</td>
                                         <td className="text-slate-400 py-4">Cotton</td>
                                     </tr>
 
-                                    <tr className="bg-white dark:bg-slate-900 border-t border-gray-100 dark:border-gray-700">
+                                    <tr className="bg-white  border-t border-gray-100">
                                         <td className="font-semibold pt-4">Size</td>
                                         <td className="text-slate-400 pt-4">S, M, L, XL, XXL</td>
                                     </tr>
@@ -231,7 +231,7 @@ function ShopDetails() {
 
                                             <Link to="" className="text-slate-400 hover:text-orange duration-500 ms-5"><i className="mdi mdi-reply"></i> Reply</Link>
                                         </div>
-                                        <div className="p-4 bg-gray-50 dark:bg-slate-800 rounded-md shadow dark:shadow-gray-800 mt-6">
+                                        <div className="p-4 bg-gray-50 rounded-md shadow mt-6">
                                             <ul className="list-none inline-block text-orange-400">
                                                 <li className="inline"><i className="mdi mdi-star text-lg"></i></li>
                                                 <li className="inline"><i className="mdi mdi-star text-lg"></i></li>
@@ -247,7 +247,7 @@ function ShopDetails() {
                                 )
                             })}
 
-                            <div className="p-6 rounded-md shadow dark:shadow-gray-800 mt-8">
+                            <div className="p-6 rounded-md shadow mt-8">
                                 <h5 className="text-lg font-semibold">Leave A Comment:</h5>
 
                                 <form className="mt-8">
@@ -257,7 +257,7 @@ function ShopDetails() {
                                                 <label htmlFor="name" className="font-semibold">Your Name:</label>
                                                 <div className="form-icon relative mt-2">
                                                     <FiUser className="w-4 h-4 absolute top-3 start-4"></FiUser>
-                                                    <input name="name" id="name" type="text" className="ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Name :"/>
+                                                    <input name="name" id="name" type="text" className="ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-100 focus:ring-0" placeholder="Name :"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -267,7 +267,7 @@ function ShopDetails() {
                                                 <label htmlFor="email" className="font-semibold">Your Email:</label>
                                                 <div className="form-icon relative mt-2">
                                                     <FiMail className="w-4 h-4 absolute top-3 start-4"></FiMail>
-                                                    <input name="email" id="email" type="email" className="ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Email :"/>
+                                                    <input name="email" id="email" type="email" className="ps-11 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-100 focus:ring-0" placeholder="Email :"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -279,7 +279,7 @@ function ShopDetails() {
                                                 <label htmlFor="comments" className="font-semibold">Your Comment:</label>
                                                 <div className="form-icon relative mt-2">
                                                     <FiMessageCircle className="w-4 h-4 absolute top-3 start-4"></FiMessageCircle>
-                                                    <textarea name="comments" id="comments" className="ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Message :"></textarea>
+                                                    <textarea name="comments" id="comments" className="ps-11 w-full py-2 px-3 h-28 bg-transparent rounded outline-none border border-gray-100 focus:ring-0" placeholder="Message :"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -303,7 +303,7 @@ function ShopDetails() {
                 {newProduct.slice(7,11).map((item, index)=>{
                     return(
                         <div className="group" key={index}>
-                            <div className="relative overflow-hidden shadow dark:shadow-gray-800 group-hover:shadow-lg group-hover:dark:shadow-gray-800 rounded-md duration-500">
+                            <div className="relative overflow-hidden shadow group-hover:shadow-lg group-hover rounded-md duration-500">
                                 <img src={item.image} className="group-hover:scale-110 duration-500" alt=""/>
         
                                 <div className="absolute -bottom-20 group-hover:bottom-3 start-3 end-3 duration-500">
