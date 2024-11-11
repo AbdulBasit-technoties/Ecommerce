@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Header from '../Components/Header'
 import { Link } from 'react-router-dom'
-import { blogData,imageAssets,blogdetail1,social } from '../Helpers/images'
+import { blogData,imageAssets,social } from '../Helpers/images'
 import { FiCalendar, FiClock } from 'react-icons/fi'
 import Footer from '../Components/Footer'
 function BlogDetails() {

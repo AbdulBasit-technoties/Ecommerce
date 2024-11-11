@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
-import { register,imageAssets } from '../../Helpers/images'
+import { imageAssets } from '../../Helpers/images'
 import { FiArrowLeft } from 'react-icons/fi'
 
 function Register() {
