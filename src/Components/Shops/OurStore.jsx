@@ -89,7 +89,7 @@ function OurStore() {
                             <FiPhone className="w-6 h-6 me-4"></FiPhone>
                             <div className="">
                                 <h5 className="title font-bold mb-0">Phone</h5>
-                                <Link to="tel:+152534-468-854" className="tracking-wide text-orange">+152 534-468-854</Link>
+                                <Link to="tel:+1525-468-854" className="tracking-wide text-orange">+152 534-4454545-854</Link>
                             </div>
                         </div>
                         
