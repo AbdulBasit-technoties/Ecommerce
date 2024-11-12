@@ -26,29 +26,29 @@ function ContactUsPage() {
 
                     <div className="lg:col-span-5 md:col-span-6">
                         <div className="lg:ms-5">
-                            <div className="bg-white rounded-md shadow dark:shadow-gray-700 p-6">
+                            <div className="bg-white rounded-md shadow  p-6">
                                 <h3 className="mb-6 text-2xl leading-normal font-semibold">Get in touch !</h3>
 
                                 <form>
                                     <div className="grid lg:grid-cols-12 grid-cols-1 gap-3">
                                         <div className="lg:col-span-6">
                                             <label htmlFor="name" className="font-semibold">Your Name:</label>
-                                            <input name="name" id="name" type="text" className="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Name :"/>
+                                            <input name="name" id="name" type="text" className="mt-2 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-100 focus:ring-0" placeholder="Name :"/>
                                         </div>
         
                                         <div className="lg:col-span-6">
                                             <label htmlFor="email" className="font-semibold">Your Email:</label>
-                                            <input name="email" id="email" type="email" className="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Email :"/>
+                                            <input name="email" id="email" type="email" className="mt-2 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-100 focus:ring-0" placeholder="Email :"/>
                                         </div>
 
                                         <div className="lg:col-span-12">
                                             <label htmlFor="subject" className="font-semibold">Your Question:</label>
-                                            <input name="subject" id="subject" className="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Subject :"/>
+                                            <input name="subject" id="subject" className="mt-2 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border border-gray-100 focus:ring-0" placeholder="Subject :"/>
                                         </div>
     
                                         <div className="lg:col-span-12">
                                             <label htmlFor="comments" className="font-semibold">Your Comment:</label>
-                                            <textarea name="comments" id="comments" className="mt-2 w-full py-2 px-3 h-28 bg-transparent dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Message :"></textarea>
+                                            <textarea name="comments" id="comments" className="mt-2 w-full py-2 px-3 h-28 bg-transparent rounded outline-none border border-gray-100 focus:ring-0" placeholder="Message :"></textarea>
                                         </div>
                                     </div>
                                     <button type="submit" id="submit" name="send" className="py-2 px-5 inline-block tracking-wide align-middle duration-500 text-base text-center bg-orange text-white rounded-md mt-2">Send Message</button>
@@ -63,7 +63,7 @@ function ContactUsPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
                     <div className="text-center px-6">
                         <div className="relative text-transparent">
-                            <div className="size-20 bg-orange/5 text-orange rounded-xl text-2xl flex align-middle justify-center items-center mx-auto shadow-sm dark:shadow-gray-800">
+                            <div className="size-20 bg-orange/5 text-orange rounded-xl text-2xl flex align-middle justify-center items-center mx-auto shadow-sm">
                                 <FiPhone/>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ function ContactUsPage() {
 
                     <div className="text-center px-6">
                         <div className="relative text-transparent">
-                            <div className="size-20 bg-orange/5 text-orange rounded-xl text-2xl flex align-middle justify-center items-center mx-auto shadow-sm dark:shadow-gray-800">
+                            <div className="size-20 bg-orange/5 text-orange rounded-xl text-2xl flex align-middle justify-center items-center mx-auto shadow-sm">
                                 <FiMail/>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ function ContactUsPage() {
 
                     <div className="text-center px-6">
                         <div className="relative text-transparent">
-                            <div className="size-20 bg-orange/5 text-orange rounded-xl text-2xl flex align-middle justify-center items-center mx-auto shadow-sm dark:shadow-gray-800">
+                            <div className="size-20 bg-orange/5 text-orange rounded-xl text-2xl flex align-middle justify-center items-center mx-auto shadow-sm">
                                 <FiMapPin />
                             </div>
                         </div>

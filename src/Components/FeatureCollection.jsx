@@ -13,37 +13,37 @@ function FeatureCollection() {
 
             <div className="grid md:grid-cols-12 grid-cols-1 pt-6 gap-6">
                 <div className="lg:col-span-4 md:col-span-6 md:order-1 order-2">
-                    <div className="relative overflow-hidden group rounded-md shadow dark:shadow-gray-800">
+                    <div className="relative overflow-hidden group rounded-md shadow ">
                         <Link to="" className="">
                             <img src={imageAssets.features.feature1} className="h-full w-full object-cover xl:h-[738.66px] lg:h-[614.66px] rounded-md group-hover:scale-110 duration-500" alt=""/>
-                            <span className="bg-white group-hover:text-orange-500 py-2 px-4 rounded-md shadow dark:shadow-gray-800 absolute mx-4 bottom-4 text-lg font-medium">Ladies Wear</span>
+                            <span className="bg-white group-hover:text-orange-500 py-2 px-4 rounded-md shadow  absolute mx-4 bottom-4 text-lg font-medium">Ladies Wear</span>
                         </Link>
                     </div>
                 </div>
                 
                 <div className="lg:col-span-4 md:col-span-12 lg:order-2 order-3">
                     <div className="grid lg:grid-cols-1 md:grid-cols-2 grid-cols-1 gap-6">
-                        <div className="relative overflow-hidden group rounded-md shadow dark:shadow-gray-800">
+                        <div className="relative overflow-hidden group rounded-md shadow ">
                             <Link to="" className="">
                                 <img src={imageAssets.features.feature2} className="group-hover:scale-110 duration-500 h-[360.33px] w-full" alt=""/>
-                                <span className="bg-white group-hover:text-orange-500 py-2 px-4 rounded-md shadow dark:shadow-gray-800 absolute mx-4 bottom-4 text-lg font-medium">Chappal & Shoes</span>
+                                <span className="bg-white group-hover:text-orange-500 py-2 px-4 rounded-md shadow  absolute mx-4 bottom-4 text-lg font-medium">Chappal & Shoes</span>
                             </Link>
                         </div>
 
-                        <div className="relative overflow-hidden group rounded-md shadow dark:shadow-gray-800">
+                        <div className="relative overflow-hidden group rounded-md shadow ">
                             <Link to="" className="">
                                 <img src={imageAssets.features.feature3} className="group-hover:scale-110 duration-500 h-[360.33px] w-full" alt=""/>
-                                <span className="bg-white group-hover:text-orange-500 py-2 px-4 rounded-md shadow dark:shadow-gray-800 absolute mx-4 bottom-4 text-lg font-medium">Sunglasses</span>
+                                <span className="bg-white group-hover:text-orange-500 py-2 px-4 rounded-md shadow  absolute mx-4 bottom-4 text-lg font-medium">Sunglasses</span>
                             </Link>
                         </div>
                     </div>
                 </div>
                 
                 <div className="lg:col-span-4 md:col-span-6 lg:order-3 order-2">
-                    <div className="relative overflow-hidden group rounded-md shadow dark:shadow-gray-800">
+                    <div className="relative overflow-hidden group rounded-md shadow ">
                         <Link to="" className="">
                             <img src={imageAssets.features.feature4} className="h-full w-full object-cover xl:h-[738.66px] lg:h-[614.66px] rounded-md group-hover:scale-110 duration-500" alt=""/>
-                            <span className="bg-white group-hover:text-orange-500 py-2 px-4 rounded-md shadow dark:shadow-gray-800 absolute mx-4 bottom-4 text-lg font-medium">Mens Wear</span>
+                            <span className="bg-white group-hover:text-orange-500 py-2 px-4 rounded-md shadow  absolute mx-4 bottom-4 text-lg font-medium">Mens Wear</span>
                         </Link>
                     </div>
                 </div>

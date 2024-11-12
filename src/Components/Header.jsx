@@ -153,10 +153,10 @@ function Header({ navlight }) {
                   )}
                 </button>
                 {isOpen && (
-                  <div className={`dropdown-menu absolute overflow-hidden end-0 m-0 mt-5 z-10 md:w-52 w-48 rounded-md bg-white dark:bg-slate-900 shadow dark:shadow-gray`}>
+                  <div className={`dropdown-menu absolute overflow-hidden end-0 m-0 mt-5 z-10 md:w-52 w-48 rounded-md bg-white  shadow `}>
                     <div className="relative">
-                      <FiSearch className="absolute size-4 top-[9px] end-3 text-slate-900 dark:text-white"></FiSearch>
-                      <input type="text" className="h-9 px-3 pe-10 w-full border-0 focus:ring-0 outline-none bg-white dark:bg-slate-900" name="s" id="searchItem" placeholder="Search..." />
+                      <FiSearch className="absolute size-4 top-[9px] end-3 text-slate-900 "></FiSearch>
+                      <input type="text" className="h-9 px-3 pe-10 w-full border-0 focus:ring-0 outline-none bg-white " name="s" id="searchItem" placeholder="Search..." />
                     </div>
                   </div>
                 )}
@@ -167,12 +167,12 @@ function Header({ navlight }) {
                   <FiShoppingCart className="h-4 w-4"></FiShoppingCart>
                 </button>
                 {cartManu && (
-                  <div className="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-64 rounded-md bg-white dark:bg-slate-900 shadow dark:shadow-gray">
+                  <div className="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-64 rounded-md bg-white  shadow ">
                     <ul className="py-3 text-start" aria-labelledby="dropdownDefault">
                       <li className='ms-0'>
                         <Link to="#" className="flex items-center justify-between py-1.5 px-4">
                           <span className="flex items-center">
-                            <img src={imageAssets.shop.src} className="rounded shadow dark:shadow-gray w-9" alt="" />
+                            <img src={imageAssets.shop.src} className="rounded shadow  w-9" alt="" />
                             <span className="ms-3">
                               <span className="block font-semibold">T-shirt (M)</span>
                               <span className="block text-sm text-slate-400">$320 X 2</span>
@@ -186,7 +186,7 @@ function Header({ navlight }) {
                       <li className='ms-0'>
                         <Link to="#" className="flex items-center justify-between py-1.5 px-4">
                           <span className="flex items-center">
-                            <img src={imageAssets.shop.src} className="rounded shadow dark:shadow-gray w-9" alt="" />
+                            <img src={imageAssets.shop.src} className="rounded shadow  w-9" alt="" />
                             <span className="ms-3">
                               <span className="block font-semibold">Bag</span>
                               <span className="block text-sm text-slate-400">$50 X 5</span>
@@ -200,7 +200,7 @@ function Header({ navlight }) {
                       <li className='ms-0'>
                         <Link to="#" className="flex items-center justify-between py-1.5 px-4">
                           <span className="flex items-center">
-                            <img src={imageAssets.shop.src} className="rounded shadow dark:shadow-gray w-9" alt="" />
+                            <img src={imageAssets.shop.src} className="rounded shadow  w-9" alt="" />
                             <span className="ms-3">
                               <span className="block font-semibold">Watch (Men)</span>
                               <span className="block text-sm text-slate-400">$800 X 1</span>
@@ -211,7 +211,7 @@ function Header({ navlight }) {
                         </Link>
                       </li>
 
-                      <li className="border-t border-gray-100 dark:border-gray my-2 ms-0"></li>
+                      <li className="border-t border-gray-100  my-2 ms-0"></li>
 
                       <li className="flex items-center justify-between py-1.5 px-4 ms-0">
                         <h6 className="font-semibold mb-0">Total($):</h6>
@@ -241,7 +241,7 @@ function Header({ navlight }) {
                   <span className="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-orange bg-orange text-white"><img src={imageAssets.navbar.src} className="rounded-full" alt="" /></span>
                 </button>
                 {userManu && (
-                  <div className="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-48 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-700">
+                  <div className="dropdown-menu absolute end-0 m-0 mt-4 z-10 w-48 rounded-md overflow-hidden bg-white  shadow -700">
                     <ul className="py-2 text-start">
                       <li className='ms-0'>
                         <p className="text-slate-400 pt-2 px-4">Welcome Jesus!</p>
@@ -250,17 +250,17 @@ function Header({ navlight }) {
                         <p className="flex items-center font-medium py-2 px-4"><FiDollarSign className="h-4 w-4 me-2"></FiDollarSign> Balance: <span className="text-orange ms-2">$ 245.10</span></p>
                       </li>
                       <li className='ms-0'>
-                        <Link to="/User-Account" className="flex items-center font-medium py-2 px-4 dark:text-white/70 hover:text-orange dark:hover:text-white"><FiUser className="h-4 w-4 me-2"></FiUser>Account</Link>
+                        <Link to="/User-Account" className="flex items-center font-medium py-2 px-4 /70 hover:text-orange "><FiUser className="h-4 w-4 me-2"></FiUser>Account</Link>
                       </li>
                       <li className='ms-0'>
-                        <Link to="/OverView" className="flex items-center font-medium py-2 px-4 dark:text-white/70 hover:text-orange dark:hover:text-white"><FiHelpCircle className="h-4 w-4 me-2"></FiHelpCircle>Helpcenter</Link>
+                        <Link to="/OverView" className="flex items-center font-medium py-2 px-4 /70 hover:text-orange "><FiHelpCircle className="h-4 w-4 me-2"></FiHelpCircle>Helpcenter</Link>
                       </li>
                       <li className='ms-0'>
-                        <Link to="/Setting" className="flex items-center font-medium py-2 px-4 dark:text-white/70 hover:text-orange dark:hover:text-white"><FiSettings className="h-4 w-4 me-2"></FiSettings>Settings</Link>
+                        <Link to="/Setting" className="flex items-center font-medium py-2 px-4 /70 hover:text-orange "><FiSettings className="h-4 w-4 me-2"></FiSettings>Settings</Link>
                       </li>
-                      <li className="border-t border-gray-100 dark:border-gray my-2"></li>
+                      <li className="border-t border-gray-100  my-2"></li>
                       <li className='ms-0'>
-                        <Link to="/Login" className="flex items-center font-medium py-2 px-4 dark:text-white/70 hover:text-orange dark:hover:text-white"><FiLogOut className="h-4 w-4 me-2"></FiLogOut>Logout</Link>
+                        <Link to="/Login" className="flex items-center font-medium py-2 px-4 /70 hover:text-orange "><FiLogOut className="h-4 w-4 me-2"></FiLogOut>Logout</Link>
                       </li>
                     </ul>
                   </div>

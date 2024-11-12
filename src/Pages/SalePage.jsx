@@ -58,7 +58,7 @@ function SalePage() {
                     {newProduct.slice(0,8).map((item, index)=>{
                         return(
                             <div className="group" key={index}>
-                                <div className="relative overflow-hidden shadow dark:shadow-gray-800 group-hover:shadow-lg group-hover:dark:shadow-gray-800 rounded-md duration-500">
+                                <div className="relative overflow-hidden shadow  group-hover:shadow-lg rounded-md duration-500">
                                     <img src={item.image} className="group-hover:scale-110 duration-500" alt=""/>
             
                                     <div className="absolute -bottom-20 group-hover:bottom-3 start-3 end-3 duration-500">
@@ -120,7 +120,7 @@ function SalePage() {
                     </div>
 
                     <div className="inline-block">
-                        <div className="pt-4 flex items-center border-t border-gray-100 dark:border-gray-800">
+                        <div className="pt-4 flex items-center border-t border-gray-100">
                             <FiSmartphone className="me-2 text-orange h-10 w-10"></FiSmartphone>
                             <div className="content">
                                 <h6 className="text-base font-medium">Install app now on your cellphones</h6>

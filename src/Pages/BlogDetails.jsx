@@ -36,7 +36,7 @@ function BlogDetails() {
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 ">
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-6">
                     <div className="lg:col-span-8 md:col-span-6">
-                        <div className="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+                        <div className="relative overflow-hidden rounded-md shadow ">
 
                             <img src={imageAssets.blog.blogdetail} alt=""/>
 
@@ -47,7 +47,7 @@ function BlogDetails() {
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-md shadow dark:shadow-gray-800 mt-8">
+                        <div className="p-6 rounded-md shadow  mt-8">
                             <h5 className="text-lg font-semibold">Leave A Comment:</h5>
 
                             <form className="mt-8">
@@ -55,14 +55,14 @@ function BlogDetails() {
                                     <div className="lg:col-span-6 mb-5">
                                         <div className="text-left">
                                             <label htmlFor="name" className="font-semibold">Your Name:</label>
-                                            <input name="name" id="name" type="text" className="mt-3 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Name :"/>
+                                            <input name="name" id="name" type="text" className="mt-3 w-full py-2 px-3 h-10 bg-transparent   rounded outline-none border border-gray-100  focus:ring-0" placeholder="Name :"/>
                                         </div>
                                     </div>
     
                                     <div className="lg:col-span-6 mb-5">
                                         <div className="text-left">
                                             <label htmlFor="email" className="font-semibold">Your Email:</label>
-                                            <input name="email" id="email" type="email" className="mt-3 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Email :"/>
+                                            <input name="email" id="email" type="email" className="mt-3 w-full py-2 px-3 h-10 bg-transparent   rounded outline-none border border-gray-100  focus:ring-0" placeholder="Email :"/>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@ function BlogDetails() {
                                     <div className="mb-5">
                                         <div className="text-left">
                                             <label htmlFor="comments" className="font-semibold">Your Comment:</label>
-                                            <textarea name="comments" id="comments" className="mt-3 w-full py-2 px-3 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0 h-28" placeholder="Message :"></textarea>
+                                            <textarea name="comments" id="comments" className="mt-3 w-full py-2 px-3 bg-transparent   rounded outline-none border border-gray-100  focus:ring-0 h-28" placeholder="Message :"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@ function BlogDetails() {
 
                     <div className="lg:col-span-4 md:col-span-6">
                         <div className="sticky top-20">
-                            <h5 className="text-lg font-medium bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center">Author</h5>
+                            <h5 className="text-lg font-medium bg-gray-50  shadow  rounded-md p-2 text-center">Author</h5>
                             <div className="text-center mt-8">
                                 <img src={imageAssets.blog.blogdetail1} className="h-20 w-20 mx-auto rounded-full shadow mb-4" alt=""/>
 
@@ -90,12 +90,12 @@ function BlogDetails() {
                                 <p className="text-slate-400">Content Writer</p>
                             </div>
 
-                            <h5 className="text-lg font-medium bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center mt-8">Social sites</h5>
+                            <h5 className="text-lg font-medium bg-gray-50  shadow  rounded-md p-2 text-center mt-8">Social sites</h5>
                             <ul className="list-none text-center mt-8 space-x-0.5">
                                 {social.map((item,index)=>{
                                     let Icon = item
                                     return(
-                                        <li className="inline" key={index}><Link to="" className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-orange hover:text-white hover:bg-orange"><Icon className="h-4 w-4"></Icon></Link></li>
+                                        <li className="inline" key={index}><Link to="" className="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-100  rounded-md text-slate-400 hover:border-orange hover:text-white hover:bg-orange"><Icon className="h-4 w-4"></Icon></Link></li>
                                     )
                                 })}
                             </ul>
@@ -113,21 +113,21 @@ function BlogDetails() {
                     {blogData.slice(0,3).map((item,index)=>{
                         return(
                             <div className="group relative overflow-hidden" key={index}>
-                                <div className="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+                                <div className="relative overflow-hidden rounded-md shadow ">
                                     <img src={item.image} className="group-hover:scale-110 duration-500" alt=""/>
                                 </div>
 
                                 <div className="mt-6">
                                     <div className="flex mb-4">
-                                        <span className="flex items-center text-slate-400 text-sm"><FiCalendar className="size-4 text-slate-900 dark:text-white me-1.5"></FiCalendar>{item.date}</span>
-                                        <span className="flex items-center text-slate-400 text-sm ms-3"><FiClock className="size-4 text-slate-900 dark:text-white me-1.5"></FiClock>5 min read</span>
+                                        <span className="flex items-center text-slate-400 text-sm"><FiCalendar className="size-4 text-slate-900  me-1.5"></FiCalendar>{item.date}</span>
+                                        <span className="flex items-center text-slate-400 text-sm ms-3"><FiClock className="size-4 text-slate-900  me-1.5"></FiClock>5 min read</span>
                                     </div>
 
                                     <Link to="/blog-detail" className="title text-lg font-semibold hover:text-orange duration-500 ease-in-out">{item.title}</Link>
                                     <p className="text-slate-400 mt-2">{item.desc}</p>
 
                                     <div className="mt-3">
-                                        <span className="text-slate-400">by <Link to="" className="text-slate-900 dark:text-white hover:text-orange dark:hover:text-orange font-medium">Cartzio</Link></span>
+                                        <span className="text-slate-400">by <Link to="" className="text-slate-900  hover:text-orange  font-medium">Cartzio</Link></span>
                                     </div>
                                 </div>
                             </div>

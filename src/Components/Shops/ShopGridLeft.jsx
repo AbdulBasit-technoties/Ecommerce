@@ -50,7 +50,7 @@ function ShopGridLeft() {
                         {newProduct.slice(0,15).map((item, index)=>{
                         return(
                             <div className="group" key={index}>
-                                <div className="relative overflow-hidden shadow dark:shadow-gray-800 group-hover:shadow-lg group-hover:dark:shadow-gray-800 rounded-md duration-500">
+                                <div className="relative overflow-hidden shadow  group-hover:shadow-lg  rounded-md duration-500">
                                     <img src={item.image} className="group-hover:scale-110 duration-500" alt=""/>
             
                                     <div className="absolute -bottom-20 group-hover:bottom-3 start-3 end-3 duration-500">
@@ -100,27 +100,27 @@ function ShopGridLeft() {
                             <nav aria-label="Page navigation example">
                                 <ul className="inline-flex items-center -space-x-px">
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 bg-white rounded-s-3xl hover:text-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 bg-white rounded-s-3xl hover:text-white border border-gray-100  hover:border-orange  hover:bg-orange ">
                                             <FiChevronLeft className="size-5 rtl:rotate-180 rtl:-mt-1"></FiChevronLeft>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">1</Link>
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100  hover:border-orange  hover:bg-orange ">1</Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">2</Link>
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100  hover:border-orange  hover:bg-orange ">2</Link>
                                     </li>
                                     <li>
                                         <Link to="#" aria-current="page" className="z-10 size-[40px] inline-flex justify-center items-center text-white bg-orange border border-orange">3</Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">4</Link>
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100  hover:border-orange  hover:bg-orange ">4</Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">5</Link>
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white border border-gray-100  hover:border-orange  hover:bg-orange ">5</Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 bg-white rounded-e-3xl hover:text-white border border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange hover:bg-orange dark:hover:bg-orange">
+                                        <Link to="#" className="size-[40px] inline-flex justify-center items-center text-slate-400 bg-white rounded-e-3xl hover:text-white border border-gray-100  hover:border-orange  hover:bg-orange ">
                                             <FiChevronRight className="size-5 rtl:rotate-180 rtl:-mt-1"></FiChevronRight>
                                         </Link>
                                     </li>

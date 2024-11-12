@@ -12,19 +12,19 @@ function UserAccount() {
         </div>
         <section className="relative lg:pb-24 pb-16 md:mt-[84px] mt-[70px]">
             <div className="md:container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 container-fluid relative">
-                <div className="relative overflow-hidden md:rounded-md shadow dark:shadow-gray-700 h-52 bg-[url('./assets/images/user_banner_bg.jpg')] bg-center bg-no-repeat bg-cover"></div>
+                <div className="relative overflow-hidden md:rounded-md shadow  h-52 bg-[url('./assets/images/user_banner_bg.jpg')] bg-center bg-no-repeat bg-cover"></div>
             </div>
 
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4  relative md:mt-24 mt-16">
                 <div className="md:flex">
                 <div className="lg:w-1/4 md:w-1/3 md:px-3">
             <div className="relative md:-mt-48 -mt-32">
-                <div className="p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900">
+                <div className="p-6 rounded-md shadow  bg-white ">
                     <div className="profile-pic text-center mb-5">
                         <input id="pro-img" name="profile-image" type="file" className="hidden" onChange={(e) =>handleChange(e)} />
                         <div>
                             <div className="relative h-28 w-28 mx-auto">
-                                <img src={imageAssets.user.user_img} className="rounded-full shadow dark:shadow-gray-800 ring-4 ring-slate-50 dark:ring-slate-800" id="profile-image" alt=""/>
+                                <img src={imageAssets.user.user_img} className="rounded-full shadow  ring-4 ring-slate-50 " id="profile-image" alt=""/>
                                 <label className="absolute inset-0 cursor-pointer" htmlFor="pro-img"></label>
                             </div>
 
@@ -35,7 +35,7 @@ function UserAccount() {
                         </div>
                     </div>
 
-                    <div className="border-t border-gray-100 dark:border-gray-700">
+                    <div className="border-t border-gray-100 ">
                         <ul className="list-none sidebar-nav mb-0 pb-0" id="navmenu-nav">
                             <li className={`navbar-item account-menu ms-0`}>
                                 <Link to="/User-Account" className="navbar-link text-slate-400 flex items-center py-2 rounded">
@@ -100,9 +100,9 @@ function UserAccount() {
 
                     <div className="lg:w-3/4 md:w-2/3 md:px-3 mt-6 md:mt-0">
                         <h5 className="text-lg font-semibold mb-6">My Orders</h5>
-                        <div className="relative overflow-x-auto shadow dark:shadow-gray-800 rounded-md">
-                            <table className="w-full text-start text-slate-500 dark:text-slate-400">
-                                <thead className="text-sm uppercase bg-slate-50 dark:bg-slate-800">
+                        <div className="relative overflow-x-auto shadow  rounded-md">
+                            <table className="w-full text-start text-slate-500 ">
+                                <thead className="text-sm uppercase bg-slate-50 ">
                                     <tr className="text-start">
                                         <th scope="col" className="px-2 py-3 text-start" style={{minWidth:'104px'}}>Order no.</th>
                                         <th scope="col" className="px-2 py-3 text-start" style={{minWidth:'140px'}}>Date</th>
@@ -114,7 +114,7 @@ function UserAccount() {
                                 <tbody>
                                     {userOrder.map((item,index)=>{
                                         return(
-                                            <tr className="bg-white dark:bg-slate-900 text-start" key={index}>
+                                            <tr className="bg-white  text-start" key={index}>
                                                 <th className="px-2 py-3 text-start" scope="row">{item.no}</th>
                                                 <td className="px-2 py-3 text-start">{item.date}</td>
                                                 {item.status === 'Delivered' && (
@@ -137,13 +137,13 @@ function UserAccount() {
 
                         <h5 className="text-lg font-semibold my-6">My favourite Items</h5>
 
-                        <div className="rounded-md shadow dark:shadow-gray-800 p-6 py-0">
+                        <div className="rounded-md shadow  p-6 py-0">
                             <ul>
                                 {userFvtItem.map((item,index)=>{
                                     return(
-                                        <li className="flex justify-between items-center py-6 border-t first-of-type:border-0 border-gray-100 dark:border-gray-700" key={index}>
+                                        <li className="flex justify-between items-center py-6 border-t first-of-type:border-0 border-gray-100 " key={index}>
                                             <div className="flex items-center">
-                                                <img src={item.image} className="rounded shadow dark:shadow-gray-800 w-16" alt=""/>
+                                                <img src={item.image} className="rounded shadow  w-16" alt=""/>
 
                                                 <div className="ms-4">
                                                     <Link to="" className="font-semibold hover:text-orange">Ladies Top</Link>

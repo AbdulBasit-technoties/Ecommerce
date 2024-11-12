@@ -32,7 +32,7 @@ function AboutUsPage() {
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div className="lg:col-span-5 md:col-span-6">
-                        <img src={imageAssets.about.about1} className="rounded-t-full shadow-md dark:shadow-gray-800" alt=""/>
+                        <img src={imageAssets.about.about1} className="rounded-t-full shadow-md " alt=""/>
                     </div>
 
                     <div className="lg:col-span-7 md:col-span-6">
@@ -64,7 +64,7 @@ function AboutUsPage() {
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative md:mt-24 mt-16">
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div className="lg:col-span-5 md:col-span-6 md:order-2 order-1">
-                        <img src={imageAssets.about.about2} className="rounded-b-full shadow-md dark:shadow-gray-800" alt=""/>
+                        <img src={imageAssets.about.about2} className="rounded-b-full shadow-md " alt=""/>
                     </div>
 
                     <div className="lg:col-span-7 md:col-span-6 md:order-1 order-2">
@@ -73,11 +73,11 @@ function AboutUsPage() {
                         <p className="text-slate-400 max-w-xl">Donec non interdum nisl. Sed ut est ac lacus sodales convallis. Nam non velit justo. Mauris vel ultrices tortor. Proin bibendum magna porttitor porttitor suscipit. Praesent sit amet consequat eros. Quisque ullamcorper ornare vulputate. Nam sodales sem id diam sollicitudin, id lobortis tellus tincidunt.</p>
 
                         <ul className="list-none mt-6 space-x-3">
-                            <li className="inline"><Link to="https://dribbble.com/shreethemes" target="_blank" className="inline-flex hover:text-orange dark:hover:text-orange"><FiDribbble className="size-5 align-middle" title="dribbble"></FiDribbble></Link></li>
-                            <li className="inline"><Link to="http://linkedin.com/company/shreethemes" target="_blank" className="inline-flex hover:text-orange dark:hover:text-orange"><FiLinkedin className="size-5 align-middle" title="Linkedin"></FiLinkedin></Link></li>
-                            <li className="inline"><Link to="https://www.facebook.com/shreethemes" target="_blank" className="inline-flex hover:text-orange dark:hover:text-orange"><FiFacebook className="size-5 align-middle" title="facebook"></FiFacebook></Link></li>
-                            <li className="inline"><Link to="https://www.instagram.com/shreethemes/" target="_blank" className="inline-flex hover:text-orange dark:hover:text-orange"><FiInstagram className="size-5 align-middle" title="instagram"></FiInstagram></Link></li>
-                            <li className="inline"><Link to="https://twitter.com/shreethemes" target="_blank" className="inline-flex hover:text-orange dark:hover:text-orange"><FiTwitter className="size-5 align-middle" title="twitter"></FiTwitter></Link></li>
+                            <li className="inline"><Link to="https://dribbble.com/shreethemes" target="_blank" className="inline-flex hover:text-orange "><FiDribbble className="size-5 align-middle" title="dribbble"></FiDribbble></Link></li>
+                            <li className="inline"><Link to="http://linkedin.com/company/shreethemes" target="_blank" className="inline-flex hover:text-orange "><FiLinkedin className="size-5 align-middle" title="Linkedin"></FiLinkedin></Link></li>
+                            <li className="inline"><Link to="https://www.facebook.com/shreethemes" target="_blank" className="inline-flex hover:text-orange "><FiFacebook className="size-5 align-middle" title="facebook"></FiFacebook></Link></li>
+                            <li className="inline"><Link to="https://www.instagram.com/shreethemes/" target="_blank" className="inline-flex hover:text-orange "><FiInstagram className="size-5 align-middle" title="instagram"></FiInstagram></Link></li>
+                            <li className="inline"><Link to="https://twitter.com/shreethemes" target="_blank" className="inline-flex hover:text-orange "><FiTwitter className="size-5 align-middle" title="twitter"></FiTwitter></Link></li>
                         </ul>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ function AboutUsPage() {
                 <div className="grid md:grid-cols-3 grid-cols-1 mt-6 gap-6">
                     {promiseData.map((item,index)=>{
                         return(
-                            <div className="p-6 shadow hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 duration-500 rounded-md bg-white dark:bg-slate-900" key={index}>
+                            <div className="p-6 shadow hover:shadow-md   duration-500 rounded-md bg-white" key={index}>
                                 <i className={`text-4xl text-orange-500 ${item.icon}`}></i>
 
                                 <div className="content mt-6">

@@ -52,7 +52,7 @@ function CustomerReview() {
                                                     <li className="inline"><MdStar className="text-amber-400" /></li>
                                                 </ul>
 
-                                                <img src={item.image} className="h-14 w-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt={item.name} />
+                                                <img src={item.image} className="h-14 w-14 rounded-full shadow-md mx-auto" alt={item.name} />
                                                 <h6 className="mt-2 font-medium">{item.name}</h6>
                                                 <span className="text-slate-400 text-sm">{item.possition}</span>
                                             </div>

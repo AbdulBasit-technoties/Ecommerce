@@ -12,7 +12,7 @@ function Error() {
                     <div className="flex flex-col min-h-screen justify-center md:px-10 py-10 px-4">
                         <div className="text-center">
                             <Link to="/">
-                                <img src={imageAssets.logo.src} className="mx-auto dark:block" alt=""/>
+                                <img src={imageAssets.logo.src} className="mx-auto" alt=""/>
                             </Link>
                         </div>
                         <div className="title-heading text-center my-auto">

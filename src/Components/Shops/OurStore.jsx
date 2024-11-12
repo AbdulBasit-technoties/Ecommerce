@@ -11,7 +11,7 @@ function OurStore() {
         <div className="main-heder absolute top-0 w-full z-[999] bg-white">
             <Header />
         </div>
-        <section className="relative table w-full py-20 lg:py-24 bg-[#f9fafb] dark:bg-slate-800">
+        <section className="relative table w-full py-20 lg:py-24 bg-[#f9fafb] ">
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid grid-cols-1 text-center mt-14">
                     <h3 className="text-3xl leading-normal font-semibold">Our Store</h3>
@@ -21,7 +21,7 @@ function OurStore() {
             <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                 <ul className="tracking-[0.5px] mb-0 inline-block">
                     <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-orange"><Link to="/">Cartzio</Link></li>
-                    <li className="inline-block text-base text-slate-950 dark:text-white mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
+                    <li className="inline-block text-base text-slate-950  mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                     <li className="inline-block uppercase text-[13px] font-bold text-orange" aria-current="page">Stores</li>
                 </ul>
             </div>
@@ -31,7 +31,7 @@ function OurStore() {
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative">
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
                     <div>
-                        <img src={imageAssets.store.ourstore} className="rounded-md shadow-md dark:shadow-gray-800" alt=""/>
+                        <img src={imageAssets.store.ourstore} className="rounded-md shadow-md " alt=""/>
 
                         <h5 className="font-semibold text-xl leading-normal my-4">Cartzio, U.S.A.</h5>
 
@@ -55,7 +55,7 @@ function OurStore() {
                     </div>
 
                     <div>
-                        <img src={ourstore} className="rounded-md shadow-md dark:shadow-gray-800" alt=""/>
+                        <img src={ourstore} className="rounded-md shadow-md " alt=""/>
 
                         <h5 className="font-semibold text-xl leading-normal my-4">Cartzio, U.S.A.</h5>
 
@@ -79,7 +79,7 @@ function OurStore() {
                     </div>
 
                     <div>
-                        <img src={ourstore} className="rounded-md shadow-md dark:shadow-gray-800" alt=""/>
+                        <img src={ourstore} className="rounded-md shadow-md " alt=""/>
 
                         <h5 className="font-semibold text-xl leading-normal my-4">Cartzio, U.S.A.</h5>
 

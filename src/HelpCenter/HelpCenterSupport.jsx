@@ -29,11 +29,11 @@ function HelpCenterSupport() {
                 </ul>
             </div>
         </section>
-        <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800">
+        <section className="relative md:py-24 py-16 bg-gray-50">
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 relative md:pb-24 pb-16">
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-6 mx-auto text-center">
                     <div className="lg:col-start-3 lg:col-span-8 md:col-start-2 md:col-span-10">
-                        <div className="bg-white dark:bg-slate-900 rounded-md shadow shadow-gray-800 p-6">
+                        <div className="bg-white  rounded-md shadow shadow-gray p-6">
                             <form>
                                 <div className="grid lg:grid-cols-12 lg:gap-6">
                                     <div className="lg:col-span-6 mb-5">
@@ -41,7 +41,7 @@ function HelpCenterSupport() {
                                             <label htmlFor="name" className="font-semibold">Your Name:</label>
                                             <div className="form-icon relative mt-2">
                                                 <FiUser className="size-4 absolute top-3 start-4"></FiUser>
-                                                <input name="name" id="name" type="text" className="ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 border-gray-800 focus:ring-0" placeholder="Name :"/>
+                                                <input name="name" id="name" type="text" className="ps-11 w-full py-2 px-3 h-10 bg-transparent   rounded outline-none border border-gray-100 border-gray-800 focus:ring-0" placeholder="Name :"/>
                                             </div>
                                         </div>
                                     </div>
@@ -51,7 +51,7 @@ function HelpCenterSupport() {
                                             <label htmlFor="email" className="font-semibold">Your Email:</label>
                                             <div className="form-icon relative mt-2">
                                                 <FiMail className="size-4 absolute top-3 start-4"></FiMail>
-                                                <input name="email" id="email" type="email" className="ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 border-gray-800 focus:ring-0" placeholder="Email :"/>
+                                                <input name="email" id="email" type="email" className="ps-11 w-full py-2 px-3 h-10 bg-transparent   rounded outline-none border border-gray-100 border-gray-800 focus:ring-0" placeholder="Email :"/>
                                             </div>
                                         </div>
                                     </div>
@@ -63,7 +63,7 @@ function HelpCenterSupport() {
                                             <label htmlFor="subject" className="font-semibold">Your Question:</label>
                                             <div className="form-icon relative mt-2">
                                                 <FiBook className="size-4 absolute top-3 start-4"></FiBook>
-                                                <input name="subject" id="subject" className="ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 border-gray-800 focus:ring-0" placeholder="Subject :"/>
+                                                <input name="subject" id="subject" className="ps-11 w-full py-2 px-3 h-10 bg-transparent   rounded outline-none border border-gray-100 border-gray-800 focus:ring-0" placeholder="Subject :"/>
                                             </div>
                                         </div>
                                     </div>
@@ -73,7 +73,7 @@ function HelpCenterSupport() {
                                             <label htmlFor="comments" className="font-semibold">Your Comment:</label>
                                             <div className="form-icon relative mt-2">
                                                 <FiMessageCircle className="size-4 absolute top-3 start-4"></FiMessageCircle>
-                                                <textarea name="comments" id="comments" className="ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 border-gray-800 focus:ring-0" placeholder="Message :"></textarea>
+                                                <textarea name="comments" id="comments" className="ps-11 w-full py-2 px-3 h-28 bg-transparent   rounded outline-none border border-gray-100 border-gray-800 focus:ring-0" placeholder="Message :"></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -96,7 +96,7 @@ function HelpCenterSupport() {
                     let Icon = item.icon
                     return(
                         <div className="text-center px-6 mt-6" key={index}>
-                            <div className="w-20 h-20 bg-orange/5 text-orange rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                            <div className="w-20 h-20 bg-orange/5 text-orange rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm mx-auto">
                                 <Icon className="size-[30px]"></Icon>
                             </div>
 

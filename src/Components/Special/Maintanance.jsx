@@ -48,7 +48,7 @@ function Maintanance() {
                 <div className="grid grid-cols-1 mt-6">
                     <div className="text-center subcribe-form">
                         <form className="relative mx-auto max-w-xl">
-                            <input type="email" id="subemail" name="name" className="py-4 pe-40 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white/70 dark:bg-slate-900/70 border border-gray-100 dark:border-gray-700" placeholder="Enter your email id.."/>
+                            <input type="email" id="subemail" name="name" className="py-4 pe-40 ps-6 w-full h-[50px] outline-none text-black  rounded-full bg-white/70  border border-gray-100 " placeholder="Enter your email id.."/>
                             <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle duration-500 text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-orange text-white rounded-full">Subcribe Now</button>
                         </form>
                     </div>

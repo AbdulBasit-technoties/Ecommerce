@@ -12,19 +12,19 @@ function Billing() {
             </div>
             <section className="relative lg:pb-24 pb-16 md:mt-[84px] mt-[70px]">
                 <div className="md:container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 container-fluid relative">
-                    <div className="relative overflow-hidden md:rounded-md shadow dark:shadow-gray-700 h-52 bg-[url('./assets/images/user_banner_bg.jpg')] bg-center bg-no-repeat bg-cover"></div>
+                    <div className="relative overflow-hidden md:rounded-md shadow  h-52 bg-[url('./assets/images/user_banner_bg.jpg')] bg-center bg-no-repeat bg-cover"></div>
                 </div>
     
                 <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4  relative md:mt-24 mt-16">
                     <div className="md:flex">
                     <div className="lg:w-1/4 md:w-1/3 md:px-3">
                 <div className="relative md:-mt-48 -mt-32">
-                    <div className="p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900">
+                    <div className="p-6 rounded-md shadow  bg-white ">
                         <div className="profile-pic text-center mb-5">
                             <input id="pro-img" name="profile-image" type="file" className="hidden" onChange={(e) =>handleChange(e)} />
                             <div>
                                 <div className="relative h-28 w-28 mx-auto">
-                                    <img src={imageAssets.user.user_img} className="rounded-full shadow dark:shadow-gray-800 ring-4 ring-slate-50 dark:ring-slate-800" id="profile-image" alt=""/>
+                                    <img src={imageAssets.user.user_img} className="rounded-full shadow  ring-4 ring-slate-50 " id="profile-image" alt=""/>
                                     <label className="absolute inset-0 cursor-pointer" htmlFor="pro-img"></label>
                                 </div>
     
@@ -35,7 +35,7 @@ function Billing() {
                             </div>
                         </div>
     
-                        <div className="border-t border-gray-100 dark:border-gray-700">
+                        <div className="border-t border-gray-100 ">
                             <ul className="list-none sidebar-nav mb-0 pb-0" id="navmenu-nav">
                                 <li className={`navbar-item account-menu ms-0`}>
                                     <Link to="/User-Account" className="navbar-link text-slate-400 flex items-center py-2 rounded">
@@ -99,7 +99,7 @@ function Billing() {
             </div>
     
             <div className="lg:w-3/4 md:w-2/3 md:px-3 mt-6 md:mt-0">
-                        <div className="p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900">
+                        <div className="p-6 rounded-md shadow  bg-white ">
                             <h6 className="text-slate-400 mb-0">The following addresses will be used on the checkout page by default.</h6>
                             <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 mt-6">
                                 <div className="">
@@ -107,7 +107,7 @@ function Billing() {
                                         <h5 className="text-xl font-medium">Billing Address:</h5>
                                         <Link to="#" className="text-orange text-lg"><FiEdit className="size-4"></FiEdit></Link>
                                     </div>
-                                    <div className="pt-4 border-t border-gray-100 dark:border-gray-700">
+                                    <div className="pt-4 border-t border-gray-100 ">
                                         <p className="text-lg font-medium mb-2">Jesus Zamora</p>
 
                                         <ul className="list-none">
@@ -129,7 +129,7 @@ function Billing() {
                                         <h5 className="text-xl font-medium">Shipping Address:</h5>
                                         <Link to="#" className="text-orange text-lg"><FiEdit className="size-4"></FiEdit></Link>
                                     </div>
-                                    <div className="pt-4 border-t border-gray-100 dark:border-gray-700">
+                                    <div className="pt-4 border-t border-gray-100 ">
                                         <p className="text-lg font-medium mb-2">Jesus Zamora</p>
 
                                         <ul className="list-none">

@@ -96,13 +96,13 @@ function Career() {
                     <div className="lg:w-3/4">
                         {jobData.map((item,index)=>{
                             return(
-                                <div className="group md:flex items-center justify-between p-6 rounded-lg shadow hover:shadow-lg dark:shadow-gray-700 duration-500 mt-6" key={index}>
+                                <div className="group md:flex items-center justify-between p-6 rounded-lg shadow hover:shadow-lg duration-500 mt-6" key={index}>
                                     <div>
                                         <Link to="/" className="text-lg font-semibold hover:text-orange">{item.name}</Link>
                                         <p className="text-slate-400 mt-1">{item.openings}</p>
                                     </div>
         
-                                    <Link to="/" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-transparent hover:bg-orange border-gray-100 dark:border-gray-800 hover:border-orange dark:hover:border-orange text-slate-900 dark:text-white hover:text-white rounded-full md:mt-0 mt-4">Apply now</Link>
+                                    <Link to="/" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-transparent hover:bg-orange border-gray-100 hover:border-orange text-slate-900 hover:text-white rounded-full md:mt-0 mt-4">Apply now</Link>
                                 </div>
                             )
                         })}
@@ -126,7 +126,7 @@ function Career() {
                     </div>
 
                     <div className="inline-block">
-                        <div className="pt-4 flex items-center border-t border-gray-100 dark:border-gray-800">
+                        <div className="pt-4 flex items-center border-t border-gray-100">
                             <FiSmartphone className="me-2 text-orange h-10 w-10"></FiSmartphone>
                             <div className="content">
                                 <h6 className="text-base font-medium">Install app now on your cellphones</h6>

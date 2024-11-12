@@ -18,7 +18,7 @@ function OverView() {
 
                     <div className="text-center subcribe-form mt-4 pt-2">
                         <form className="relative mx-auto max-w-xl">
-                            <input type="text" id="help" name="name" className="py-4 pe-40 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white opacity-70 dark:bg-slate-900 border border-gray-100 dark:border-gray-700" placeholder="Search your questions or topic..."/>
+                            <input type="text" id="help" name="name" className="py-4 pe-40 ps-6 w-full h-[50px] outline-none text-black  rounded-full bg-white opacity-70  border border-gray-100 " placeholder="Search your questions or topic..."/>
                             <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle duration-500 text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-orange text-white rounded-full">Search</button>
                         </form>
                     </div>
@@ -46,7 +46,7 @@ function OverView() {
                     let Icon = item.icon
                     return(
                         <div className="text-center px-6 mt-6" key={index}>
-                            <div className="w-20 h-20 bg-orange/5 text-orange rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                            <div className="w-20 h-20 bg-orange/5 text-orange rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm mx-auto">
                                 <Icon className="size-[30px]"></Icon>
                             </div>
 

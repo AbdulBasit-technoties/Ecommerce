@@ -12,19 +12,19 @@ function Payment() {
             </div>
             <section className="relative lg:pb-24 pb-16 md:mt-[84px] mt-[70px]">
                 <div className="md:container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4 container-fluid relative">
-                    <div className="relative overflow-hidden md:rounded-md shadow dark:shadow-gray-700 h-52 bg-[url('./assets/images/user_banner_bg.jpg')] bg-center bg-no-repeat bg-cover"></div>
+                    <div className="relative overflow-hidden md:rounded-md shadow  h-52 bg-[url('./assets/images/user_banner_bg.jpg')] bg-center bg-no-repeat bg-cover"></div>
                 </div>
     
                 <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4  relative md:mt-24 mt-16">
                     <div className="md:flex">
                     <div className="lg:w-1/4 md:w-1/3 md:px-3">
                 <div className="relative md:-mt-48 -mt-32">
-                    <div className="p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900">
+                    <div className="p-6 rounded-md shadow  bg-white ">
                         <div className="profile-pic text-center mb-5">
                             <input id="pro-img" name="profile-image" type="file" className="hidden" onChange={(e) =>handleChange(e)} />
                             <div>
                                 <div className="relative h-28 w-28 mx-auto">
-                                    <img src={imageAssets.user.user_img} className="rounded-full shadow dark:shadow-gray-800 ring-4 ring-slate-50 dark:ring-slate-800" id="profile-image" alt=""/>
+                                    <img src={imageAssets.user.user_img} className="rounded-full shadow  ring-4 ring-slate-50 " id="profile-image" alt=""/>
                                     <label className="absolute inset-0 cursor-pointer" htmlFor="pro-img"></label>
                                 </div>
     
@@ -35,7 +35,7 @@ function Payment() {
                             </div>
                         </div>
     
-                        <div className="border-t border-gray-100 dark:border-gray-700">
+                        <div className="border-t border-gray-100 ">
                             <ul className="list-none sidebar-nav mb-0 pb-0" id="navmenu-nav">
                                 <li className={`navbar-item account-menu ms-0`}>
                                     <Link to="/User-Account" className="navbar-link text-slate-400 flex items-center py-2 rounded">
@@ -99,8 +99,8 @@ function Payment() {
             </div>
     
             <div className="lg:w-3/4 md:w-2/3 md:px-3 mt-6 md:mt-0">
-                        <div className="rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900">
-                            <div className="p-6 md:flex justify-between items-center border-b border-gray-100 dark:border-gray-700">
+                        <div className="rounded-md shadow  bg-white ">
+                            <div className="p-6 md:flex justify-between items-center border-b border-gray-100 ">
                                 <div className="mb-4 md:mb-0">
                                     <h5 className="text-xl font-semibold">Current Plan</h5>
                                 </div>
@@ -120,8 +120,8 @@ function Payment() {
                             </div>
                         </div>
 
-                        <div className="rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900 mt-6">
-                            <div className="p-6 border-b border-gray-100 dark:border-gray-700">
+                        <div className="rounded-md shadow  bg-white  mt-6">
+                            <div className="p-6 border-b border-gray-100 ">
                                 <h5 className="text-xl font-semibold">Payment Methods</h5>
                                 <p className="text-slate-400 mt-2">Primary payment method is used by default</p>
                             </div>
@@ -130,9 +130,9 @@ function Payment() {
                                 <ul>
                                     {paymentMethod.map((item,index) =>{
                                         return(
-                                            <li className="flex justify-between items-center py-6 border-t border-gray-100 dark:border-gray-700" key={index}>
+                                            <li className="flex justify-between items-center py-6 border-t border-gray-100 " key={index}>
                                                 <div className="flex items-center">
-                                                    <img src={item.image} className="rounded shadow dark:shadow-gray-800 w-12" alt=""/>
+                                                    <img src={item.image} className="rounded shadow  w-12" alt=""/>
 
                                                     <div className="ms-3">
                                                         <p className="font-semibold">{item.name}</p>
@@ -147,7 +147,7 @@ function Payment() {
                                         )
                                     })}
 
-                                    <li className="py-6 border-t border-gray-100 dark:border-gray-700">
+                                    <li className="py-6 border-t border-gray-100 ">
                                         <Link to="#" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle duration-500 text-base text-center bg-orange3
                                         
                                         

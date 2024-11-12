@@ -10,18 +10,18 @@ function Invoice() {
         <div className="main-heder absolute top-0 w-full z-[999] bg-white">
                 <Header />
             </div>
-            <section className="relative lg:py-24 py-16 bg-slate-50 dark:bg-slate-800">
+            <section className="relative lg:py-24 py-16 bg-slate-50 ">
             <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 px-4  relative">
                 <div className="md:flex justify-center mt-24">
                     <div className="lg:w-4/5 w-full">
-                        <div className="p-6 rounded-md shadow dark:shadow-gray-800 bg-white dark:bg-slate-900">
-                            <div className="border-b border-gray-100 dark:border-gray-700 pb-6">
+                        <div className="p-6 rounded-md shadow  bg-white ">
+                            <div className="border-b border-gray-100  pb-6">
                                 <div className="md:flex justify-between">
                                     <div>
-                                        <img src={imageAssets.logo.src} className="block dark:hidden" alt=""/>
+                                        <img src={imageAssets.logo.src} className="block " alt=""/>
                                         <div className="flex mt-4">
                                             <FiLink className="h-4 w-4 me-3 mt-1"></FiLink>
-                                            <Link to="https://1.envato.market/shreethemes-portfolio" target="_blank" className="text-orange dark:text-white font-medium">https://1.envato.market/shreethemes-portfolio</Link>
+                                            <Link to="https://1.envato.market/shreethemes-portfolio" target="_blank" className="text-orange  font-medium">https://1.envato.market/shreethemes-portfolio</Link>
                                         </div>
                                     </div>
 
@@ -85,9 +85,9 @@ function Invoice() {
                                 </div>
                             </div>
                             
-                            <div className="relative overflow-x-auto shadow dark:shadow-gray-800 rounded-md mt-6">
-                                <table className="w-full text-start text-slate-500 dark:text-slate-400">
-                                    <thead className="text-sm uppercase bg-slate-50 dark:bg-slate-800">
+                            <div className="relative overflow-x-auto shadow  rounded-md mt-6">
+                                <table className="w-full text-start text-slate-500 ">
+                                    <thead className="text-sm uppercase bg-slate-50 ">
                                         <tr>
                                             <th scope="col" className="text-center px-6 py-3 w-16">
                                                 No.
@@ -107,11 +107,11 @@ function Invoice() {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr className="bg-white dark:bg-slate-900">
+                                        <tr className="bg-white ">
                                             <td className="text-center px-6 py-4">
                                                 1
                                             </td>
-                                            <th scope="row" className="text-start px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                            <th scope="row" className="text-start px-6 py-4 font-medium text-gray-900  whitespace-nowrap">
                                                 Apple MacBook Pro 17"
                                             </th>
                                             <td className="text-center px-6 py-4">
@@ -124,11 +124,11 @@ function Invoice() {
                                                 $ 280
                                             </td>
                                         </tr>
-                                        <tr className="bg-white dark:bg-slate-900 border-t border-gray-100 dark:border-gray-700">
+                                        <tr className="bg-white  border-t border-gray-100 ">
                                             <td className="text-center px-6 py-4">
                                                 2
                                             </td>
-                                            <th scope="row" className="text-start px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                            <th scope="row" className="text-start px-6 py-4 font-medium text-gray-900  whitespace-nowrap">
                                                 Microsoft Surface Pro
                                             </th>
                                             <td className="text-center px-6 py-4">
@@ -141,11 +141,11 @@ function Invoice() {
                                                 $ 140
                                             </td>
                                         </tr>
-                                        <tr className="bg-white dark:bg-slate-900 border-t border-gray-100 dark:border-gray-700">
+                                        <tr className="bg-white  border-t border-gray-100 ">
                                             <td className="text-center px-6 py-4">
                                                 3
                                             </td>
-                                            <th scope="row" className="text-start px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                                            <th scope="row" className="text-start px-6 py-4 font-medium text-gray-900  whitespace-nowrap">
                                                 Magic Mouse 2
                                             </th>
                                             <td className="text-center px-6 py-4">
@@ -179,7 +179,7 @@ function Invoice() {
                                 </ul>
                             </div>
 
-                            <div className="invoice-footer border-t border-gray-100 dark:border-gray-700 pt-6">
+                            <div className="invoice-footer border-t border-gray-100  pt-6">
                                 <div className="md:flex justify-between">
                                     <div>
                                         <div className="text-slate-400 text-center md:text-start">
