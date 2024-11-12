@@ -55,7 +55,7 @@ function OurStore() {
                     </div>
 
                     <div>
-                        <img src={ourstore} className="rounded-md shadow-md " alt=""/>
+                        <img src={imageAssets.store.ourstore} className="rounded-md shadow-md " alt=""/>
 
                         <h5 className="font-semibold text-xl leading-normal my-4">Cartzio, U.S.A.</h5>
 
@@ -79,7 +79,7 @@ function OurStore() {
                     </div>
 
                     <div>
-                        <img src={ourstore} className="rounded-md shadow-md " alt=""/>
+                        <img src={imageAssets.store.ourstore} className="rounded-md shadow-md " alt=""/>
 
                         <h5 className="font-semibold text-xl leading-normal my-4">Cartzio, U.S.A.</h5>
 

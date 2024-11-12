@@ -24,7 +24,7 @@ function Offer() {
                     </tr>
                     
                     <tr>
-                        <td style={{position: 'relative', color: '#161c2d', fontSize: '18px', padding: '70px 0', width: '600px', fontWeight: '600', background: `url('${user_banner_bg}')`, textAlign: 'center',backgroundSize: 'cover'}}>
+                        <td style={{position: 'relative', color: '#161c2d', fontSize: '18px', padding: '70px 0', width: '600px', fontWeight: '600', background: `url('${imageAssets.user.user_banner_bg}')`, textAlign: 'center',backgroundSize: 'cover'}}>
                             <span style={{position: 'absolute', inset: '0', backgroundColor: '#161c2d', opacity: '0.4'}}></span>
                             <span style={{position: 'relative', zIndex: '1'}}>
                                 <h1 style={{color:' #fff', fontSize:'36px' , marginBottom:'30px'}}>SALE OUTLET <br/> UP TO 75% OFF</h1>

@@ -56,7 +56,7 @@ function Cart() {
                                     <tr>
                                         <td style={{padding: '16px'}}>
                                             <span style={{display: 'flex', alignItems: 'center',}}>
-                                                <img src={product} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
+                                                <img src={imageAssets.products.product} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
                                                 <span style={{marginLeft: '8px'}}>
                                                     <span style={{fontWeight: '500'}}>Sneaker Shoes</span>
                                                 </span>
@@ -70,7 +70,7 @@ function Cart() {
                                     <tr>
                                         <td style={{padding: '16px'}}>
                                             <span style={{display: 'flex', alignItems: 'center',}}>
-                                                <img src={product} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
+                                                <img src={imageAssets.products.product} style={{width: '48px',boxShadow: '0 0 3px rgba(60, 72, 88, 0.15)', borderRadius: '6px',}} alt=""/>
                                                 <span style={{marginLeft: '8px'}}>
                                                     <span style={{fontWeight: '500'}}>Ladies Skirt</span>
                                                 </span>

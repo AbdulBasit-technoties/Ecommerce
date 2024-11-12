@@ -5,7 +5,7 @@ import { imageAssets } from '../Helpers/images'
 function FeatureCollection() {
   return (
     <Fragment>
-        <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 pt-20 px-4 relative px-52">
+        <div className="container mx-auto 2xl:px-52 xl:px-20 lg:px-11 pt-20 relative px-52">
             <div className="grid grid-cols-1 justify-center text-center mb-6">
                 <h5 className="font-semibold text-3xl leading-normal mb-4">Featured Collections</h5>
                 <p className="text-slate-400 max-w-xl mx-auto">Shop the latest products from the most popular collections</p>
